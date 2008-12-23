@@ -1,0 +1,1186 @@
+** Found serializer YAML
+** Found serializer XML::Dumper
+** Found serializer FreezeThaw
+** Found serializer Data::Dumper
+** Found serializer XML::Simple
+** Found serializer Storable
+** Found serializer YAML::Syck
+** Found serializer JSON::Syck
+** Found serializer Config::General
+** Found feature raw
+** Found feature newraw
+1..206
+
+** Begin Testing for raw newraw
+** Test YAML simplearray raw
+1: array
+1:   A: "one"
+1:   B: "one"
+1: ok 1
+
+** Test YAML simplearray newraw
+2: array
+2:   A: "one"
+2:   B: "one"
+2: ok 2
+
+** Test YAML trickyscalar raw
+3: tricky scalar
+3:   A: "{foo=>\22bar\22}"
+3:   B: "{foo=>\22bar\22}"
+3: ok 3
+
+** Test YAML trickyscalar newraw
+4: tricky scalar
+4:   A: "{foo=>\22bar\22}"
+4:   B: "{foo=>\22bar\22}"
+4: ok 4
+
+** Test YAML simplehash raw
+5: hash
+5:   A: "1"
+5:   B: "1"
+5: ok 5
+
+** Test YAML simplehash newraw
+6: hash
+6:   A: "1"
+6:   B: "1"
+6: ok 6
+
+** Test YAML simpleobject raw
+7: object namespace
+7:   A: "My::TestObj"
+7:   B: "My::TestObj"
+7: ok 7
+
+8: object data
+8:   A: "e"
+8:   B: "e"
+8: ok 8
+
+** Test YAML simpleobject newraw
+9: object namespace
+9:   A: "My::TestObj"
+9:   B: "My::TestObj"
+9: ok 9
+
+10: object data
+10:   A: "e"
+10:   B: "e"
+10: ok 10
+
+** Test YAML simplescalar raw
+11: scalar
+11:   A: "pointless"
+11:   B: "pointless"
+11: ok 11
+
+** Test YAML simplescalar newraw
+12: scalar
+12:   A: "pointless"
+12:   B: "pointless"
+12: ok 12
+
+** Test YAML simplescalarref raw
+13: simple scalar ref
+13:   A: "pointless"
+13:   B: "pointless"
+13: ok 13
+
+** Test YAML simplescalarref newraw
+14: simple scalar ref
+14:   A: "pointless"
+14:   B: "pointless"
+14: ok 14
+
+** Test YAML complexarray raw
+15: array of arrays
+15:   A: "bob"
+15:   B: "bob"
+15: ok 15
+
+16: array of hashes
+16:   A: "1"
+16:   B: "1"
+16: ok 16
+
+** Test YAML complexarray newraw
+17: array of arrays
+17:   A: "bob"
+17:   B: "bob"
+17: ok 17
+
+18: array of hashes
+18:   A: "1"
+18:   B: "1"
+18: ok 18
+
+** Test YAML selfrefarray raw
+19: array self ref to internal array
+19:   A: "1"
+19:   B: "1"
+19: ok 19
+
+** Test YAML selfrefarray newraw
+20: array self ref to internal array
+20:   A: "1"
+20:   B: "1"
+20: ok 20
+
+** Test YAML complexhash raw
+21: hash of arrays
+21:   A: "two"
+21:   B: "two"
+21: ok 21
+
+22: hash of hashes
+22:   A: "1"
+22:   B: "1"
+22: ok 22
+
+23: hash of hash of hashes
+23:   A: "smelly"
+23:   B: "smelly"
+23: ok 23
+
+** Test YAML complexhash newraw
+24: hash of arrays
+24:   A: "two"
+24:   B: "two"
+24: ok 24
+
+25: hash of hashes
+25:   A: "1"
+25:   B: "1"
+25: ok 25
+
+26: hash of hash of hashes
+26:   A: "smelly"
+26:   B: "smelly"
+26: ok 26
+
+** Test YAML selfrefhash raw
+27: hash self ref to internal array
+27:   A: "two"
+27:   B: "two"
+27: ok 27
+
+** Test YAML selfrefhash newraw
+28: hash self ref to internal array
+28:   A: "two"
+28:   B: "two"
+28: ok 28
+
+** Test XML::Dumper simplearray raw
+29: array
+29:   A: "one"
+29:   B: "one"
+29: ok 29
+
+** Test XML::Dumper simplearray newraw
+30: array
+30:   A: "one"
+30:   B: "one"
+30: ok 30
+
+** Test XML::Dumper trickyscalar raw
+31: tricky scalar
+31:   A: "{foo=>\22bar\22}"
+31:   B: "{foo=>\22bar\22}"
+31: ok 31
+
+** Test XML::Dumper trickyscalar newraw
+32: tricky scalar
+32:   A: "{foo=>\22bar\22}"
+32:   B: "{foo=>\22bar\22}"
+32: ok 32
+
+** Test XML::Dumper simplehash raw
+33: hash
+33:   A: "1"
+33:   B: "1"
+33: ok 33
+
+** Test XML::Dumper simplehash newraw
+34: hash
+34:   A: "1"
+34:   B: "1"
+34: ok 34
+
+** Test XML::Dumper simpleobject raw
+35: object namespace
+35:   A: "My::TestObj"
+35:   B: "My::TestObj"
+35: ok 35
+
+36: object data
+36:   A: "e"
+36:   B: "e"
+36: ok 36
+
+** Test XML::Dumper simpleobject newraw
+37: object namespace
+37:   A: "My::TestObj"
+37:   B: "My::TestObj"
+37: ok 37
+
+38: object data
+38:   A: "e"
+38:   B: "e"
+38: ok 38
+
+** Test XML::Dumper simplescalar raw
+39: scalar
+39:   A: "pointless"
+39:   B: "pointless"
+39: ok 39
+
+** Test XML::Dumper simplescalar newraw
+40: scalar
+40:   A: "pointless"
+40:   B: "pointless"
+40: ok 40
+
+** Test XML::Dumper simplescalarref raw
+41: simple scalar ref
+41:   A: "pointless"
+41:   B: "pointless"
+41: ok 41
+
+** Test XML::Dumper simplescalarref newraw
+42: simple scalar ref
+42:   A: "pointless"
+42:   B: "pointless"
+42: ok 42
+
+** Test XML::Dumper complexarray raw
+43: array of arrays
+43:   A: "bob"
+43:   B: "bob"
+43: ok 43
+
+44: array of hashes
+44:   A: "1"
+44:   B: "1"
+44: ok 44
+
+** Test XML::Dumper complexarray newraw
+45: array of arrays
+45:   A: "bob"
+45:   B: "bob"
+45: ok 45
+
+46: array of hashes
+46:   A: "1"
+46:   B: "1"
+46: ok 46
+
+** Test XML::Dumper selfrefarray raw
+47: array self ref to internal array
+47:   A: "1"
+47:   B: "1"
+47: ok 47
+
+** Test XML::Dumper selfrefarray newraw
+48: array self ref to internal array
+48:   A: "1"
+48:   B: "1"
+48: ok 48
+
+** Test XML::Dumper complexhash raw
+49: hash of arrays
+49:   A: "two"
+49:   B: "two"
+49: ok 49
+
+50: hash of hashes
+50:   A: "1"
+50:   B: "1"
+50: ok 50
+
+51: hash of hash of hashes
+51:   A: "smelly"
+51:   B: "smelly"
+51: ok 51
+
+** Test XML::Dumper complexhash newraw
+52: hash of arrays
+52:   A: "two"
+52:   B: "two"
+52: ok 52
+
+53: hash of hashes
+53:   A: "1"
+53:   B: "1"
+53: ok 53
+
+54: hash of hash of hashes
+54:   A: "smelly"
+54:   B: "smelly"
+54: ok 54
+
+** Test XML::Dumper selfrefhash raw
+55: hash self ref to internal array
+55:   A: "two"
+55:   B: "two"
+55: ok 55
+
+** Test XML::Dumper selfrefhash newraw
+56: hash self ref to internal array
+56:   A: "two"
+56:   B: "two"
+56: ok 56
+
+** Test FreezeThaw simplearray raw
+57: array
+57:   A: "one"
+57:   B: "one"
+57: ok 57
+
+** Test FreezeThaw simplearray newraw
+58: array
+58:   A: "one"
+58:   B: "one"
+58: ok 58
+
+** Test FreezeThaw trickyscalar raw
+59: tricky scalar
+59:   A: "{foo=>\22bar\22}"
+59:   B: "{foo=>\22bar\22}"
+59: ok 59
+
+** Test FreezeThaw trickyscalar newraw
+60: tricky scalar
+60:   A: "{foo=>\22bar\22}"
+60:   B: "{foo=>\22bar\22}"
+60: ok 60
+
+** Test FreezeThaw simplehash raw
+61: hash
+61:   A: "1"
+61:   B: "1"
+61: ok 61
+
+** Test FreezeThaw simplehash newraw
+62: hash
+62:   A: "1"
+62:   B: "1"
+62: ok 62
+
+** Test FreezeThaw simpleobject raw
+63: object namespace
+63:   A: "My::TestObj"
+63:   B: "My::TestObj"
+63: ok 63
+
+64: object data
+64:   A: "e"
+64:   B: "e"
+64: ok 64
+
+** Test FreezeThaw simpleobject newraw
+65: object namespace
+65:   A: "My::TestObj"
+65:   B: "My::TestObj"
+65: ok 65
+
+66: object data
+66:   A: "e"
+66:   B: "e"
+66: ok 66
+
+** Test FreezeThaw simplescalar raw
+67: scalar
+67:   A: "pointless"
+67:   B: "pointless"
+67: ok 67
+
+** Test FreezeThaw simplescalar newraw
+68: scalar
+68:   A: "pointless"
+68:   B: "pointless"
+68: ok 68
+
+** Test FreezeThaw simplescalarref raw
+69: simple scalar ref
+69:   A: "pointless"
+69:   B: "pointless"
+69: ok 69
+
+** Test FreezeThaw simplescalarref newraw
+70: simple scalar ref
+70:   A: "pointless"
+70:   B: "pointless"
+70: ok 70
+
+** Test FreezeThaw complexarray raw
+71: array of arrays
+71:   A: "bob"
+71:   B: "bob"
+71: ok 71
+
+72: array of hashes
+72:   A: "1"
+72:   B: "1"
+72: ok 72
+
+** Test FreezeThaw complexarray newraw
+73: array of arrays
+73:   A: "bob"
+73:   B: "bob"
+73: ok 73
+
+74: array of hashes
+74:   A: "1"
+74:   B: "1"
+74: ok 74
+
+** Test FreezeThaw selfrefarray raw
+75: array self ref to internal array
+75:   A: "1"
+75:   B: "1"
+75: ok 75
+
+** Test FreezeThaw selfrefarray newraw
+76: array self ref to internal array
+76:   A: "1"
+76:   B: "1"
+76: ok 76
+
+** Test FreezeThaw complexhash raw
+77: hash of arrays
+77:   A: "two"
+77:   B: "two"
+77: ok 77
+
+78: hash of hashes
+78:   A: "1"
+78:   B: "1"
+78: ok 78
+
+79: hash of hash of hashes
+79:   A: "smelly"
+79:   B: "smelly"
+79: ok 79
+
+** Test FreezeThaw complexhash newraw
+80: hash of arrays
+80:   A: "two"
+80:   B: "two"
+80: ok 80
+
+81: hash of hashes
+81:   A: "1"
+81:   B: "1"
+81: ok 81
+
+82: hash of hash of hashes
+82:   A: "smelly"
+82:   B: "smelly"
+82: ok 82
+
+** Test FreezeThaw selfrefhash raw
+83: hash self ref to internal array
+83:   A: "two"
+83:   B: "two"
+83: ok 83
+
+** Test FreezeThaw selfrefhash newraw
+84: hash self ref to internal array
+84:   A: "two"
+84:   B: "two"
+84: ok 84
+
+** Test Data::Dumper simplearray raw
+85: array
+85:   A: "one"
+85:   B: "one"
+85: ok 85
+
+** Test Data::Dumper simplearray newraw
+86: array
+86:   A: "one"
+86:   B: "one"
+86: ok 86
+
+** Test Data::Dumper trickyscalar raw
+87: tricky scalar
+87:   A: "{foo=>\22bar\22}"
+87:   B: "{foo=>\22bar\22}"
+87: ok 87
+
+** Test Data::Dumper trickyscalar newraw
+88: tricky scalar
+88:   A: "{foo=>\22bar\22}"
+88:   B: "{foo=>\22bar\22}"
+88: ok 88
+
+** Test Data::Dumper simplehash raw
+89: hash
+89:   A: "1"
+89:   B: "1"
+89: ok 89
+
+** Test Data::Dumper simplehash newraw
+90: hash
+90:   A: "1"
+90:   B: "1"
+90: ok 90
+
+** Test Data::Dumper simpleobject raw
+91: object namespace
+91:   A: "My::TestObj"
+91:   B: "My::TestObj"
+91: ok 91
+
+92: object data
+92:   A: "e"
+92:   B: "e"
+92: ok 92
+
+** Test Data::Dumper simpleobject newraw
+93: object namespace
+93:   A: "My::TestObj"
+93:   B: "My::TestObj"
+93: ok 93
+
+94: object data
+94:   A: "e"
+94:   B: "e"
+94: ok 94
+
+** Test Data::Dumper simplescalar raw
+95: scalar
+95:   A: "pointless"
+95:   B: "pointless"
+95: ok 95
+
+** Test Data::Dumper simplescalar newraw
+96: scalar
+96:   A: "pointless"
+96:   B: "pointless"
+96: ok 96
+
+** Test Data::Dumper simplescalarref raw
+97: simple scalar ref
+97:   A: "pointless"
+97:   B: "pointless"
+97: ok 97
+
+** Test Data::Dumper simplescalarref newraw
+98: simple scalar ref
+98:   A: "pointless"
+98:   B: "pointless"
+98: ok 98
+
+** Test Data::Dumper complexarray raw
+99: array of arrays
+99:   A: "bob"
+99:   B: "bob"
+99: ok 99
+
+100: array of hashes
+100:   A: "1"
+100:   B: "1"
+100: ok 100
+
+** Test Data::Dumper complexarray newraw
+101: array of arrays
+101:   A: "bob"
+101:   B: "bob"
+101: ok 101
+
+102: array of hashes
+102:   A: "1"
+102:   B: "1"
+102: ok 102
+
+** Test Data::Dumper selfrefarray raw
+103: array self ref to internal array
+103:   A: "1"
+103:   B: "1"
+103: ok 103
+
+** Test Data::Dumper selfrefarray newraw
+104: array self ref to internal array
+104:   A: "1"
+104:   B: "1"
+104: ok 104
+
+** Test Data::Dumper complexhash raw
+105: hash of arrays
+105:   A: "two"
+105:   B: "two"
+105: ok 105
+
+106: hash of hashes
+106:   A: "1"
+106:   B: "1"
+106: ok 106
+
+107: hash of hash of hashes
+107:   A: "smelly"
+107:   B: "smelly"
+107: ok 107
+
+** Test Data::Dumper complexhash newraw
+108: hash of arrays
+108:   A: "two"
+108:   B: "two"
+108: ok 108
+
+109: hash of hashes
+109:   A: "1"
+109:   B: "1"
+109: ok 109
+
+110: hash of hash of hashes
+110:   A: "smelly"
+110:   B: "smelly"
+110: ok 110
+
+** Test Data::Dumper selfrefhash raw
+111: hash self ref to internal array
+111:   A: "two"
+111:   B: "two"
+111: ok 111
+
+** Test Data::Dumper selfrefhash newraw
+112: hash self ref to internal array
+112:   A: "two"
+112:   B: "two"
+112: ok 112
+
+** Test XML::Simple simplehash raw
+113: hash
+113:   A: "1"
+113:   B: "1"
+113: ok 113
+
+** Test XML::Simple simplehash newraw
+114: hash
+114:   A: "1"
+114:   B: "1"
+114: ok 114
+
+** Test XML::Simple complexarray raw
+115: array of arrays
+115:   A: "bob"
+115:   B: "bob"
+115: ok 115
+
+116: array of hashes
+116:   A: "1"
+116:   B: "1"
+116: ok 116
+
+** Test XML::Simple complexarray newraw
+117: array of arrays
+117:   A: "bob"
+117:   B: "bob"
+117: ok 117
+
+118: array of hashes
+118:   A: "1"
+118:   B: "1"
+118: ok 118
+
+** Test XML::Simple simplearray raw
+119: array
+119:   A: "one"
+119:   B: "one"
+119: ok 119
+
+** Test XML::Simple simplearray newraw
+120: array
+120:   A: "one"
+120:   B: "one"
+120: ok 120
+
+** Test XML::Simple complexhash raw
+121: hash of arrays
+121:   A: "two"
+121:   B: "two"
+121: ok 121
+
+122: hash of hashes
+122:   A: "1"
+122:   B: "1"
+122: ok 122
+
+123: hash of hash of hashes
+123:   A: "smelly"
+123:   B: "smelly"
+123: ok 123
+
+** Test XML::Simple complexhash newraw
+124: hash of arrays
+124:   A: "two"
+124:   B: "two"
+124: ok 124
+
+125: hash of hashes
+125:   A: "1"
+125:   B: "1"
+125: ok 125
+
+126: hash of hash of hashes
+126:   A: "smelly"
+126:   B: "smelly"
+126: ok 126
+
+** Test XML::Simple selfrefarray raw
+127: array self ref to internal array
+127:   A: "1"
+127:   B: "1"
+127: ok 127
+
+** Test XML::Simple selfrefarray newraw
+128: array self ref to internal array
+128:   A: "1"
+128:   B: "1"
+128: ok 128
+
+** Test XML::Simple selfrefhash raw
+129: hash self ref to internal array
+129:   A: "two"
+129:   B: "two"
+129: ok 129
+
+** Test XML::Simple selfrefhash newraw
+130: hash self ref to internal array
+130:   A: "two"
+130:   B: "two"
+130: ok 130
+
+** Test Storable simplearray raw
+131: array
+131:   A: "one"
+131:   B: "one"
+131: ok 131
+
+** Test Storable simplearray newraw
+132: array
+132:   A: "one"
+132:   B: "one"
+132: ok 132
+
+** Test Storable simplehash raw
+133: hash
+133:   A: "1"
+133:   B: "1"
+133: ok 133
+
+** Test Storable simplehash newraw
+134: hash
+134:   A: "1"
+134:   B: "1"
+134: ok 134
+
+** Test Storable simpleobject raw
+135: object namespace
+135:   A: "My::TestObj"
+135:   B: "My::TestObj"
+135: ok 135
+
+136: object data
+136:   A: "e"
+136:   B: "e"
+136: ok 136
+
+** Test Storable simpleobject newraw
+137: object namespace
+137:   A: "My::TestObj"
+137:   B: "My::TestObj"
+137: ok 137
+
+138: object data
+138:   A: "e"
+138:   B: "e"
+138: ok 138
+
+** Test Storable simplescalarref raw
+139: simple scalar ref
+139:   A: "pointless"
+139:   B: "pointless"
+139: ok 139
+
+** Test Storable simplescalarref newraw
+140: simple scalar ref
+140:   A: "pointless"
+140:   B: "pointless"
+140: ok 140
+
+** Test Storable complexarray raw
+141: array of arrays
+141:   A: "bob"
+141:   B: "bob"
+141: ok 141
+
+142: array of hashes
+142:   A: "1"
+142:   B: "1"
+142: ok 142
+
+** Test Storable complexarray newraw
+143: array of arrays
+143:   A: "bob"
+143:   B: "bob"
+143: ok 143
+
+144: array of hashes
+144:   A: "1"
+144:   B: "1"
+144: ok 144
+
+** Test Storable selfrefarray raw
+145: array self ref to internal array
+145:   A: "1"
+145:   B: "1"
+145: ok 145
+
+** Test Storable selfrefarray newraw
+146: array self ref to internal array
+146:   A: "1"
+146:   B: "1"
+146: ok 146
+
+** Test Storable complexhash raw
+147: hash of arrays
+147:   A: "two"
+147:   B: "two"
+147: ok 147
+
+148: hash of hashes
+148:   A: "1"
+148:   B: "1"
+148: ok 148
+
+149: hash of hash of hashes
+149:   A: "smelly"
+149:   B: "smelly"
+149: ok 149
+
+** Test Storable complexhash newraw
+150: hash of arrays
+150:   A: "two"
+150:   B: "two"
+150: ok 150
+
+151: hash of hashes
+151:   A: "1"
+151:   B: "1"
+151: ok 151
+
+152: hash of hash of hashes
+152:   A: "smelly"
+152:   B: "smelly"
+152: ok 152
+
+** Test Storable selfrefhash raw
+153: hash self ref to internal array
+153:   A: "two"
+153:   B: "two"
+153: ok 153
+
+** Test Storable selfrefhash newraw
+154: hash self ref to internal array
+154:   A: "two"
+154:   B: "two"
+154: ok 154
+
+** Test YAML::Syck simplearray raw
+155: array
+155:   A: "one"
+155:   B: "one"
+155: ok 155
+
+** Test YAML::Syck simplearray newraw
+156: array
+156:   A: "one"
+156:   B: "one"
+156: ok 156
+
+** Test YAML::Syck trickyscalar raw
+157: tricky scalar
+157:   A: "{foo=>\22bar\22}"
+157:   B: "{foo=>\22bar\22}"
+157: ok 157
+
+** Test YAML::Syck trickyscalar newraw
+158: tricky scalar
+158:   A: "{foo=>\22bar\22}"
+158:   B: "{foo=>\22bar\22}"
+158: ok 158
+
+** Test YAML::Syck simplehash raw
+159: hash
+159:   A: "1"
+159:   B: "1"
+159: ok 159
+
+** Test YAML::Syck simplehash newraw
+160: hash
+160:   A: "1"
+160:   B: "1"
+160: ok 160
+
+** Test YAML::Syck simpleobject raw
+161: object namespace
+161:   A: "My::TestObj"
+161:   B: "My::TestObj"
+161: ok 161
+
+162: object data
+162:   A: "e"
+162:   B: "e"
+162: ok 162
+
+** Test YAML::Syck simpleobject newraw
+163: object namespace
+163:   A: "My::TestObj"
+163:   B: "My::TestObj"
+163: ok 163
+
+164: object data
+164:   A: "e"
+164:   B: "e"
+164: ok 164
+
+** Test YAML::Syck simplescalar raw
+165: scalar
+165:   A: "pointless"
+165:   B: "pointless"
+165: ok 165
+
+** Test YAML::Syck simplescalar newraw
+166: scalar
+166:   A: "pointless"
+166:   B: "pointless"
+166: ok 166
+
+** Test YAML::Syck simplescalarref raw
+167: simple scalar ref
+167:   A: "pointless"
+167:   B: "pointless"
+167: ok 167
+
+** Test YAML::Syck simplescalarref newraw
+168: simple scalar ref
+168:   A: "pointless"
+168:   B: "pointless"
+168: ok 168
+
+** Test YAML::Syck complexarray raw
+169: array of arrays
+169:   A: "bob"
+169:   B: "bob"
+169: ok 169
+
+170: array of hashes
+170:   A: "1"
+170:   B: "1"
+170: ok 170
+
+** Test YAML::Syck complexarray newraw
+171: array of arrays
+171:   A: "bob"
+171:   B: "bob"
+171: ok 171
+
+172: array of hashes
+172:   A: "1"
+172:   B: "1"
+172: ok 172
+
+** Test YAML::Syck selfrefarray raw
+173: array self ref to internal array
+173:   A: "1"
+173:   B: "1"
+173: ok 173
+
+** Test YAML::Syck selfrefarray newraw
+174: array self ref to internal array
+174:   A: "1"
+174:   B: "1"
+174: ok 174
+
+** Test YAML::Syck complexhash raw
+175: hash of arrays
+175:   A: "two"
+175:   B: "two"
+175: ok 175
+
+176: hash of hashes
+176:   A: "1"
+176:   B: "1"
+176: ok 176
+
+177: hash of hash of hashes
+177:   A: "smelly"
+177:   B: "smelly"
+177: ok 177
+
+** Test YAML::Syck complexhash newraw
+178: hash of arrays
+178:   A: "two"
+178:   B: "two"
+178: ok 178
+
+179: hash of hashes
+179:   A: "1"
+179:   B: "1"
+179: ok 179
+
+180: hash of hash of hashes
+180:   A: "smelly"
+180:   B: "smelly"
+180: ok 180
+
+** Test YAML::Syck selfrefhash raw
+181: hash self ref to internal array
+181:   A: "two"
+181:   B: "two"
+181: ok 181
+
+** Test YAML::Syck selfrefhash newraw
+182: hash self ref to internal array
+182:   A: "two"
+182:   B: "two"
+182: ok 182
+
+** Test JSON::Syck simplearray raw
+183: array
+183:   A: "one"
+183:   B: "one"
+183: ok 183
+
+** Test JSON::Syck simplearray newraw
+184: array
+184:   A: "one"
+184:   B: "one"
+184: ok 184
+
+** Test JSON::Syck simplehash raw
+185: hash
+185:   A: "1"
+185:   B: "1"
+185: ok 185
+
+** Test JSON::Syck simplehash newraw
+186: hash
+186:   A: "1"
+186:   B: "1"
+186: ok 186
+
+** Test JSON::Syck complexarray raw
+187: array of arrays
+187:   A: "bob"
+187:   B: "bob"
+187: ok 187
+
+188: array of hashes
+188:   A: "1"
+188:   B: "1"
+188: ok 188
+
+** Test JSON::Syck complexarray newraw
+189: array of arrays
+189:   A: "bob"
+189:   B: "bob"
+189: ok 189
+
+190: array of hashes
+190:   A: "1"
+190:   B: "1"
+190: ok 190
+
+** Test JSON::Syck complexhash raw
+191: hash of arrays
+191:   A: "two"
+191:   B: "two"
+191: ok 191
+
+192: hash of hashes
+192:   A: "1"
+192:   B: "1"
+192: ok 192
+
+193: hash of hash of hashes
+193:   A: "smelly"
+193:   B: "smelly"
+193: ok 193
+
+** Test JSON::Syck complexhash newraw
+194: hash of arrays
+194:   A: "two"
+194:   B: "two"
+194: ok 194
+
+195: hash of hashes
+195:   A: "1"
+195:   B: "1"
+195: ok 195
+
+196: hash of hash of hashes
+196:   A: "smelly"
+196:   B: "smelly"
+196: ok 196
+
+** Test Config::General simplehash raw
+197: hash
+197:   A: "1"
+197:   B: "1"
+197: ok 197
+
+** Test Config::General simplehash newraw
+198: hash
+198:   A: "1"
+198:   B: "1"
+198: ok 198
+
+** Test Config::General complexhash raw
+199: hash of arrays
+199:   A: "two"
+199:   B: "two"
+199: ok 199
+
+200: hash of hashes
+200:   A: "1"
+200:   B: "1"
+200: ok 200
+
+201: hash of hash of hashes
+201:   A: "smelly"
+201:   B: "smelly"
+201: ok 201
+
+** Test Config::General complexhash newraw
+202: hash of arrays
+202:   A: "two"
+202:   B: "two"
+202: ok 202
+
+203: hash of hashes
+203:   A: "1"
+203:   B: "1"
+203: ok 203
+
+204: hash of hash of hashes
+204:   A: "smelly"
+204:   B: "smelly"
+204: ok 204
+
+** Test Config::General selfrefhash raw
+205: hash self ref to internal array
+205:   A: "two"
+205:   B: "two"
+205: ok 205
+
+** Test Config::General selfrefhash newraw
+206: hash self ref to internal array
+206:   A: "two"
+206:   B: "two"
+206: ok 206
+

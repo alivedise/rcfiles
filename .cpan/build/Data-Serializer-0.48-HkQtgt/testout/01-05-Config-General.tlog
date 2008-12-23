@@ -1,0 +1,62 @@
+** Found serializer Config::General
+** Found feature basic
+** Found feature cgopt
+1..10
+
+** Begin Testing for basic cgopt
+** Test Config::General simplehash basic
+1: hash
+1:   A: "1"
+1:   B: "1"
+1: ok 1
+
+** Test Config::General simplehash cgopt
+2: hash
+2:   A: "1"
+2:   B: "1"
+2: ok 2
+
+** Test Config::General complexhash basic
+3: hash of arrays
+3:   A: "two"
+3:   B: "two"
+3: ok 3
+
+4: hash of hashes
+4:   A: "1"
+4:   B: "1"
+4: ok 4
+
+5: hash of hash of hashes
+5:   A: "smelly"
+5:   B: "smelly"
+5: ok 5
+
+** Test Config::General complexhash cgopt
+6: hash of arrays
+6:   A: "two"
+6:   B: "two"
+6: ok 6
+
+7: hash of hashes
+7:   A: "1"
+7:   B: "1"
+7: ok 7
+
+8: hash of hash of hashes
+8:   A: "smelly"
+8:   B: "smelly"
+8: ok 8
+
+** Test Config::General selfrefhash basic
+9: hash self ref to internal array
+9:   A: "two"
+9:   B: "two"
+9: ok 9
+
+** Test Config::General selfrefhash cgopt
+10: hash self ref to internal array
+10:   A: "two"
+10:   B: "two"
+10: ok 10
+

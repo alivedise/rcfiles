@@ -1,0 +1,43 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon Nov 12 14:29:25 2007 GMT by CPAN::Checksums (v1.061)
+$cksum = {
+  'Win32-Registry-File-1.09.tar.gz' => {
+    'md5' => 'e57aa9b8a6c858a2d7f8068dd35cc638',
+    'md5-ungz' => 'd67c0575da85bc5a3698497f37d0ab1a',
+    'mtime' => '2002-01-21',
+    'sha256' => 'f277a47015728a301319d18adeb90055ac33d9d420eeb8166682ebbaedb8f281',
+    'sha256-ungz' => '7596a8bcb3201b14905d5b206500bc169400939f674aa8281949330a26edfbe3',
+    'size' => 10645
+  },
+  'Win32-Registry-File-1.09.zip' => {
+    'md5' => '263b740df8a6249a143290fe064d977c',
+    'mtime' => '2002-01-21',
+    'sha256' => 'ad44111e466e931498245f1f8d899ee70f88aca71e165163410e721fa80a0a1a',
+    'size' => 12140
+  },
+  'Win32-Registry-File-1.10.tar.gz' => {
+    'md5' => '446fd28a6016a43680cc49db679b0c4b',
+    'md5-ungz' => '81e55a518036167211d4beda422e357e',
+    'mtime' => '2002-03-24',
+    'sha256' => 'e39b6971e56fe7fd0a9b564532e1d62766889bb3611ea5ffa6f8ba88e8cb60be',
+    'sha256-ungz' => '6c48825b39150ab7061ab307a3166c7b148f6242d61490761571db6194d2d862',
+    'size' => 10773
+  },
+  'Win32-Registry-File-1.10.zip' => {
+    'md5' => '376a46fbfdf862fde1a9aa5e5b5387f0',
+    'mtime' => '2002-03-24',
+    'sha256' => 'ee94834e159095504a4b6856eb8a4fecbe9030ba954a1133261c29030acf228b',
+    'size' => 12295
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFHOGNFMo2oZ0UPiewRAuU0AJ9qPvjsedjnVIIdcElabKxwGqnldACgnA3K
+EIUxoKp9hhZ8vI6a92EnKmQ=
+=Kdlv
+-----END PGP SIGNATURE-----

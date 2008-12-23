@@ -1,0 +1,55 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: XML::SAX::PurePerl
+  CHECKSUM_STATUS: OK
+  ID: G/GR/GRANTM/XML-SAX-0.96.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: GRANTM
+  archived: tar
+  build_dir: /home/klaymen/.cpan/build/XML-SAX-0.96-AIkBrc
+  incommandcolor: 1
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1227060880
+  localfile: /home/klaymen/.cpan/sources/authors/id/G/GR/GRANTM/XML-SAX-0.96.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1227060876
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1227060880
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires: ~
+    requires:
+      File::Temp: 0
+      XML::NamespaceSupport: 0.03
+  prereq_pm_detected: 1
+  reqtype: c
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1227060875
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1227060876
+  yaml_content: ~
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1194523161
+  mtime_dll: 0
+  sitearchexp: /usr/lib64/perl5/site_perl/5.8.8/x86_64-linux-thread-multi
+time: 1227060880

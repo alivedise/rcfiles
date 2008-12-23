@@ -1,0 +1,32 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: XML::Simple
+  CHECKSUM_STATUS: OK
+  ID: G/GR/GRANTM/XML-Simple-2.18.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: GRANTM
+  archived: tar
+  build_dir: /home/klaymen/.cpan/build/XML-Simple-2.18-uOfJJc
+  incommandcolor: 1
+  localfile: /home/klaymen/.cpan/sources/authors/id/G/GR/GRANTM/XML-Simple-2.18.tar.gz
+  negative_prefs_cache: 0
+  prefs: {}
+  prereq_pm_detected: 0
+  reqtype: c
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1227060832
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: 1
+    TEXT: NO '/usr/bin/perl Makefile.PL PREFIX=~/usr/cpan' returned status 65280
+    TIME: 1227060832
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1194523161
+  mtime_dll: 0
+  sitearchexp: /usr/lib64/perl5/site_perl/5.8.8/x86_64-linux-thread-multi
+time: 1227060832

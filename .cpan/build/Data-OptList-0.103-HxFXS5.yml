@@ -1,0 +1,59 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Data::OptList
+  CHECKSUM_STATUS: OK
+  ID: R/RJ/RJBS/Data-OptList-0.103.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: RJBS
+  archived: tar
+  build_dir: /home/klaymen/.cpan/build/Data-OptList-0.103-HxFXS5
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1224219778
+  localfile: /home/klaymen/.cpan/sources/authors/id/R/RJ/RJBS/Data-OptList-0.103.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1224219777
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1224219778
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+    make: {}
+    pl: {}
+    test: {}
+  prereq_pm:
+    build_requires: ~
+    requires:
+      List::Util: 0
+      Params::Util: 0.14
+      Sub::Install: 0.92
+  prereq_pm_detected: 1
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1224219777
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1224219777
+  yaml_content: ~
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1194523161
+  mtime_dll: 0
+  sitearchexp: /usr/lib64/perl5/site_perl/5.8.8/x86_64-linux-thread-multi
+time: 1224219778

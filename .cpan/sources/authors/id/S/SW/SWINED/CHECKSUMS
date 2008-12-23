@@ -1,0 +1,141 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Tue Apr  8 06:29:45 2008 GMT by CPAN::Checksums (v1.064)
+$cksum = {
+  'WWW-Bugzilla3-0.1.meta' => {
+    'md5' => '599292617e4eadcc5683fe62d9c65730',
+    'mtime' => '2007-07-05',
+    'sha256' => 'd5a067c6851c37bc0c93fbc2b75568b50df89af780bafe44d5cc4dd8b1432bd1',
+    'size' => '534'
+  },
+  'WWW-Bugzilla3-0.1.tar.gz' => {
+    'md5' => 'a58330bc59454a15dd1702745d1e107c',
+    'md5-ungz' => 'e48c57d87af4357ed35bd038e7fdb719',
+    'mtime' => '2007-07-05',
+    'sha256' => 'e4f417870cb1ab5cefa85743648f4a64f8860868a15d8dc70acf88b45789a358',
+    'sha256-ungz' => 'f328cef6999d6633123c621c06d59d114a288c1e137ae83fe54d18e0d14b8906',
+    'size' => '5633'
+  },
+  'WWW-Bugzilla3-0.2.meta' => {
+    'md5' => '18f23577a88400ed82cbc19e63ff1e9d',
+    'mtime' => '2007-07-05',
+    'sha256' => '91b48c94d5431817d2995cfd9b13a3ebcbe191a33398df1846e1163b3a25ae68',
+    'size' => '534'
+  },
+  'WWW-Bugzilla3-0.2.tar.gz' => {
+    'md5' => 'd97bca20ec0fd0a11a1b4a8ab4597c45',
+    'md5-ungz' => '6ad4007b0e9fbe67d3d9a89359421799',
+    'mtime' => '2007-07-05',
+    'sha256' => 'f9b214adc2e6f0a739f482e4a9f76ec9d841d6acf9b33dca8b5ad7924c12408c',
+    'sha256-ungz' => 'ef4ff862953fd48da683d0148d471708e194d7bdb6ade8ae6cec1c86c75eed2e',
+    'size' => '5589'
+  },
+  'WWW-Bugzilla3-0.3.meta' => {
+    'md5' => '79d2e0c06a193261aa0aa0147c134024',
+    'mtime' => '2007-07-06',
+    'sha256' => '5dfdcb64aed691644f3d426042e9dcecd19894874147200e9b263205a3b522ca',
+    'size' => '534'
+  },
+  'WWW-Bugzilla3-0.3.tar.gz' => {
+    'md5' => '71b55ef6bc24f5b5ecf5dc3d15f2b579',
+    'md5-ungz' => '2876b6777bd5090231af9b23eb7421dd',
+    'mtime' => '2007-07-06',
+    'sha256' => '34ed698f811cd435259ece8de53868f410b8094ae3215b05c36e7164fabf5894',
+    'sha256-ungz' => 'cca7fc6f5e452951b709e92e741b5cfac14c365fd084a9331ce8276940abcc07',
+    'size' => '5633'
+  },
+  'WWW-Bugzilla3-0.4.meta' => {
+    'md5' => '1ea451a1efc6269aed9483beb40e6edc',
+    'mtime' => '2007-07-09',
+    'sha256' => '0d6c65ee7039452adc04073ebdfbd9751f666d45eeef30b00cc607455709842d',
+    'size' => '619'
+  },
+  'WWW-Bugzilla3-0.4.tar.gz' => {
+    'md5' => '4113fedf2e5cafde119c95b3684d5076',
+    'md5-ungz' => '5522fdcb2935f573c0c0eb31dd09e62a',
+    'mtime' => '2007-07-09',
+    'sha256' => 'c08f6fef9476991e3de5496cc746cf7ce228a410033dae72c2df5f5e35172d04',
+    'sha256-ungz' => '691723671e0197f29f3694e23ea839996327a9220d3a0d07e7104397a0b14d3f',
+    'size' => '5920'
+  },
+  'WWW-Bugzilla3-0.5.meta' => {
+    'md5' => '300b1ba0b8f8f0de2d3c9bc163a73511',
+    'mtime' => '2007-07-25',
+    'sha256' => '7acb58ed82cfce78ffdddbd5b45013b7f07962bfb0a27b1a68e00543216fbd33',
+    'size' => '619'
+  },
+  'WWW-Bugzilla3-0.5.tar.gz' => {
+    'md5' => '0c2508c0d0fcc87f6d371f68c2398b4b',
+    'md5-ungz' => '086d0f5d5ae4597f1c058927a993aa43',
+    'mtime' => '2007-07-25',
+    'sha256' => 'fd083ac6b2e71282ddd2f93e73de6d715f8cdefe319994393c7d85dd535dce64',
+    'sha256-ungz' => '2eff2c1995b4891528fe98d370fae8c8473224d5aadf928d6254e78391412114',
+    'size' => '5923'
+  },
+  'WWW-Bugzilla3-0.6.meta' => {
+    'md5' => '23566adb12c9a0c2c244d57902bb023f',
+    'mtime' => '2007-09-01',
+    'sha256' => '7bded434e980ab6709e60619b0f04b621ca245979eb08c4e30e7f41a7470f149',
+    'size' => '619'
+  },
+  'WWW-Bugzilla3-0.6.tar.gz' => {
+    'md5' => '3f082ef44920bd72c9a369d0847c4794',
+    'md5-ungz' => '16947694dd2bc9d7d9178ad4dd6d28b3',
+    'mtime' => '2007-09-01',
+    'sha256' => '90ca0e515cc0d2a99fbdb01240804ea5399fa207eca66a59deb179022b01bb6f',
+    'sha256-ungz' => '82eb62940deb8c24bb0fe7f7fb4d8c0f53d59a166e1b4d6347ed4315997479ad',
+    'size' => '5363'
+  },
+  'WWW-Bugzilla3-0.7.meta' => {
+    'md5' => '57616c27d03ed360549405c8eba96d8c',
+    'mtime' => '2007-12-28',
+    'sha256' => 'b82ef7d639cbb175878fca4980a1f8052799f060a4ff90672a46b7dc2d44f603',
+    'size' => '534'
+  },
+  'WWW-Bugzilla3-0.7.tar.gz' => {
+    'md5' => '47f326331c6d26e747ff7ec3bb86b4ec',
+    'md5-ungz' => 'e1dda192ba730d5b9e5d4de6d2131f64',
+    'mtime' => '2007-12-28',
+    'sha256' => '08fb99924e5e43448d9a6d7f31dfe24bab9f9c21b40babfa22db8273d6656e66',
+    'sha256-ungz' => '7f4f136381c2455d246a284b8b536cea57d87135acfb9609b6a16b064dba8028',
+    'size' => '5367'
+  },
+  'WWW-FreeProxy-0.01.meta' => {
+    'md5' => '05397c2a644d57130da3e26f4890af7b',
+    'mtime' => '2008-04-03',
+    'sha256' => 'cc7ad398ab5f4e6c7aca73d894fbd44496a2b0ef4ffb8f8b2fdb525d18973a68',
+    'size' => '387'
+  },
+  'WWW-FreeProxy-0.01.tar.gz' => {
+    'md5' => 'd083ee8d8dbfa8a2491cbd8fda8b6720',
+    'md5-ungz' => '26cdc637c4dd50d33118bf3bc445029b',
+    'mtime' => '2008-04-03',
+    'sha256' => '1077c1cedcc126542fed04a6ff129039d9a4a918a2a59dc137afec0c4fc1cc7e',
+    'sha256-ungz' => 'c294242c4086495b86408af2fba1f8e57459987318d0fbcc4b34ea8bdb9d53c3',
+    'size' => '3099'
+  },
+  'WWW-FreeProxy-0.02.meta' => {
+    'md5' => 'e455adc9d209b7c88dac5c57ea9a3473',
+    'mtime' => '2008-04-08',
+    'sha256' => '914420461634e7c4706c990dd3bd65535a8ea48f84323edd0cbd00d6f68fca92',
+    'size' => '387'
+  },
+  'WWW-FreeProxy-0.02.tar.gz' => {
+    'md5' => '4b69a9a6eac88347ba7a1e608d9d1d0e',
+    'md5-ungz' => 'd02c6dd103faa7a8c6b77f214c43289a',
+    'mtime' => '2008-04-08',
+    'sha256' => '15fc5fc81f5c70f39df29ebf813e18e257770ffc48bf937cf73c5f94370b9841',
+    'sha256-ungz' => 'b89b6854fa7e19946805b4dc9d2ff884b88a7ce710ae0a05509c9b66e7d8d32d',
+    'size' => '3751'
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFH+xDZMo2oZ0UPiewRAtFIAJ9pExV+pX0UnxKTMguKM3EkVHd2YQCdFqz1
+IKV4Nrack1DWD0SxPPkPUi0=
+=UauS
+-----END PGP SIGNATURE-----

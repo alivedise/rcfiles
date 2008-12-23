@@ -1,0 +1,3 @@
+/tmp/cc918exH.o: In function `main':
+functest_strlcpy.c:(.text+0xb): undefined reference to `strlcpy'
+collect2: ld returned 1 exit status

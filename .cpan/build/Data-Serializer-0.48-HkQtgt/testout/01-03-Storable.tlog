@@ -1,0 +1,73 @@
+** Found serializer Storable
+** Found feature basic
+1..12
+
+** Begin Testing for basic
+** Test Storable simplearray basic
+1: array
+1:   A: "one"
+1:   B: "one"
+1: ok 1
+
+** Test Storable simplehash basic
+2: hash
+2:   A: "1"
+2:   B: "1"
+2: ok 2
+
+** Test Storable simpleobject basic
+3: object namespace
+3:   A: "My::TestObj"
+3:   B: "My::TestObj"
+3: ok 3
+
+4: object data
+4:   A: "e"
+4:   B: "e"
+4: ok 4
+
+** Test Storable simplescalarref basic
+5: simple scalar ref
+5:   A: "pointless"
+5:   B: "pointless"
+5: ok 5
+
+** Test Storable complexarray basic
+6: array of arrays
+6:   A: "bob"
+6:   B: "bob"
+6: ok 6
+
+7: array of hashes
+7:   A: "1"
+7:   B: "1"
+7: ok 7
+
+** Test Storable selfrefarray basic
+8: array self ref to internal array
+8:   A: "1"
+8:   B: "1"
+8: ok 8
+
+** Test Storable complexhash basic
+9: hash of arrays
+9:   A: "two"
+9:   B: "two"
+9: ok 9
+
+10: hash of hashes
+10:   A: "1"
+10:   B: "1"
+10: ok 10
+
+11: hash of hash of hashes
+11:   A: "smelly"
+11:   B: "smelly"
+11: ok 11
+
+** Test Storable selfrefhash basic
+12: hash self ref to internal array
+12:   A: "two"
+12:   B: "two"
+12: ok 12
+

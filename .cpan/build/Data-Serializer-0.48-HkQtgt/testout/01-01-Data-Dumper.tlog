@@ -1,0 +1,85 @@
+** Found serializer Data::Dumper
+** Found feature basic
+1..14
+
+** Begin Testing for basic
+** Test Data::Dumper simplearray basic
+1: array
+1:   A: "one"
+1:   B: "one"
+1: ok 1
+
+** Test Data::Dumper trickyscalar basic
+2: tricky scalar
+2:   A: "{foo=>\22bar\22}"
+2:   B: "{foo=>\22bar\22}"
+2: ok 2
+
+** Test Data::Dumper simplehash basic
+3: hash
+3:   A: "1"
+3:   B: "1"
+3: ok 3
+
+** Test Data::Dumper simpleobject basic
+4: object namespace
+4:   A: "My::TestObj"
+4:   B: "My::TestObj"
+4: ok 4
+
+5: object data
+5:   A: "e"
+5:   B: "e"
+5: ok 5
+
+** Test Data::Dumper simplescalar basic
+6: scalar
+6:   A: "pointless"
+6:   B: "pointless"
+6: ok 6
+
+** Test Data::Dumper simplescalarref basic
+7: simple scalar ref
+7:   A: "pointless"
+7:   B: "pointless"
+7: ok 7
+
+** Test Data::Dumper complexarray basic
+8: array of arrays
+8:   A: "bob"
+8:   B: "bob"
+8: ok 8
+
+9: array of hashes
+9:   A: "1"
+9:   B: "1"
+9: ok 9
+
+** Test Data::Dumper selfrefarray basic
+10: array self ref to internal array
+10:   A: "1"
+10:   B: "1"
+10: ok 10
+
+** Test Data::Dumper complexhash basic
+11: hash of arrays
+11:   A: "two"
+11:   B: "two"
+11: ok 11
+
+12: hash of hashes
+12:   A: "1"
+12:   B: "1"
+12: ok 12
+
+13: hash of hash of hashes
+13:   A: "smelly"
+13:   B: "smelly"
+13: ok 13
+
+** Test Data::Dumper selfrefhash basic
+14: hash self ref to internal array
+14:   A: "two"
+14:   B: "two"
+14: ok 14
+

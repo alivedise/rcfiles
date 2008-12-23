@@ -1,0 +1,3 @@
+/tmp/ccpXP3ui.o: In function `main':
+functest__getpty.c:(.text+0xb): undefined reference to `_getpty'
+collect2: ld returned 1 exit status

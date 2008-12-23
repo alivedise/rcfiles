@@ -1,0 +1,11 @@
+** Found serializer YAML
+** Found serializer XML::Dumper
+** Found serializer FreezeThaw
+** Found serializer Data::Dumper
+** Found serializer XML::Simple
+** Found serializer Storable
+** Found serializer YAML::Syck
+** Found serializer JSON::Syck
+** Found serializer Config::General
+1..0 # Skipped:  sha1 not installed
+

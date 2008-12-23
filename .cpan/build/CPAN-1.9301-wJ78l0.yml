@@ -1,0 +1,61 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: CPAN
+  CHECKSUM_STATUS: OK
+  ID: A/AN/ANDK/CPAN-1.9301.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: ANDK
+  archived: tar
+  build_dir: /home/klaymen/.cpan/build/CPAN-1.9301-wJ78l0
+  incommandcolor: 1
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1227060705
+  localfile: /home/klaymen/.cpan/sources/authors/id/A/AN/ANDK/CPAN-1.9301.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1227060643
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1227060704
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+    make: {}
+    pl: {}
+    test: {}
+  prereq_pm:
+    build_requires: ~
+    requires:
+      File::Spec: 0
+      File::Temp: 0
+      Scalar::Util: 0
+      Test::Harness: 2.62
+      Test::More: 0
+  prereq_pm_detected: 1
+  reqtype: c
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1227060641
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1227060642
+  yaml_content: ~
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1194523161
+  mtime_dll: 0
+  sitearchexp: /usr/lib64/perl5/site_perl/5.8.8/x86_64-linux-thread-multi
+time: 1227060705

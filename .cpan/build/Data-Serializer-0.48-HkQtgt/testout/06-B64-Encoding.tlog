@@ -1,0 +1,599 @@
+** Found serializer YAML
+** Found serializer XML::Dumper
+** Found serializer FreezeThaw
+** Found serializer Data::Dumper
+** Found serializer XML::Simple
+** Found serializer Storable
+** Found serializer YAML::Syck
+** Found serializer JSON::Syck
+** Found serializer Config::General
+** Found feature encoding
+1..103
+
+** Begin Testing for encoding
+** Test YAML simplearray encoding
+1: array
+1:   A: "one"
+1:   B: "one"
+1: ok 1
+
+** Test YAML trickyscalar encoding
+2: tricky scalar
+2:   A: "{foo=>\22bar\22}"
+2:   B: "{foo=>\22bar\22}"
+2: ok 2
+
+** Test YAML simplehash encoding
+3: hash
+3:   A: "1"
+3:   B: "1"
+3: ok 3
+
+** Test YAML simpleobject encoding
+4: object namespace
+4:   A: "My::TestObj"
+4:   B: "My::TestObj"
+4: ok 4
+
+5: object data
+5:   A: "e"
+5:   B: "e"
+5: ok 5
+
+** Test YAML simplescalar encoding
+6: scalar
+6:   A: "pointless"
+6:   B: "pointless"
+6: ok 6
+
+** Test YAML simplescalarref encoding
+7: simple scalar ref
+7:   A: "pointless"
+7:   B: "pointless"
+7: ok 7
+
+** Test YAML complexarray encoding
+8: array of arrays
+8:   A: "bob"
+8:   B: "bob"
+8: ok 8
+
+9: array of hashes
+9:   A: "1"
+9:   B: "1"
+9: ok 9
+
+** Test YAML selfrefarray encoding
+10: array self ref to internal array
+10:   A: "1"
+10:   B: "1"
+10: ok 10
+
+** Test YAML complexhash encoding
+11: hash of arrays
+11:   A: "two"
+11:   B: "two"
+11: ok 11
+
+12: hash of hashes
+12:   A: "1"
+12:   B: "1"
+12: ok 12
+
+13: hash of hash of hashes
+13:   A: "smelly"
+13:   B: "smelly"
+13: ok 13
+
+** Test YAML selfrefhash encoding
+14: hash self ref to internal array
+14:   A: "two"
+14:   B: "two"
+14: ok 14
+
+** Test XML::Dumper simplearray encoding
+15: array
+15:   A: "one"
+15:   B: "one"
+15: ok 15
+
+** Test XML::Dumper trickyscalar encoding
+16: tricky scalar
+16:   A: "{foo=>\22bar\22}"
+16:   B: "{foo=>\22bar\22}"
+16: ok 16
+
+** Test XML::Dumper simplehash encoding
+17: hash
+17:   A: "1"
+17:   B: "1"
+17: ok 17
+
+** Test XML::Dumper simpleobject encoding
+18: object namespace
+18:   A: "My::TestObj"
+18:   B: "My::TestObj"
+18: ok 18
+
+19: object data
+19:   A: "e"
+19:   B: "e"
+19: ok 19
+
+** Test XML::Dumper simplescalar encoding
+20: scalar
+20:   A: "pointless"
+20:   B: "pointless"
+20: ok 20
+
+** Test XML::Dumper simplescalarref encoding
+21: simple scalar ref
+21:   A: "pointless"
+21:   B: "pointless"
+21: ok 21
+
+** Test XML::Dumper complexarray encoding
+22: array of arrays
+22:   A: "bob"
+22:   B: "bob"
+22: ok 22
+
+23: array of hashes
+23:   A: "1"
+23:   B: "1"
+23: ok 23
+
+** Test XML::Dumper selfrefarray encoding
+24: array self ref to internal array
+24:   A: "1"
+24:   B: "1"
+24: ok 24
+
+** Test XML::Dumper complexhash encoding
+25: hash of arrays
+25:   A: "two"
+25:   B: "two"
+25: ok 25
+
+26: hash of hashes
+26:   A: "1"
+26:   B: "1"
+26: ok 26
+
+27: hash of hash of hashes
+27:   A: "smelly"
+27:   B: "smelly"
+27: ok 27
+
+** Test XML::Dumper selfrefhash encoding
+28: hash self ref to internal array
+28:   A: "two"
+28:   B: "two"
+28: ok 28
+
+** Test FreezeThaw simplearray encoding
+29: array
+29:   A: "one"
+29:   B: "one"
+29: ok 29
+
+** Test FreezeThaw trickyscalar encoding
+30: tricky scalar
+30:   A: "{foo=>\22bar\22}"
+30:   B: "{foo=>\22bar\22}"
+30: ok 30
+
+** Test FreezeThaw simplehash encoding
+31: hash
+31:   A: "1"
+31:   B: "1"
+31: ok 31
+
+** Test FreezeThaw simpleobject encoding
+32: object namespace
+32:   A: "My::TestObj"
+32:   B: "My::TestObj"
+32: ok 32
+
+33: object data
+33:   A: "e"
+33:   B: "e"
+33: ok 33
+
+** Test FreezeThaw simplescalar encoding
+34: scalar
+34:   A: "pointless"
+34:   B: "pointless"
+34: ok 34
+
+** Test FreezeThaw simplescalarref encoding
+35: simple scalar ref
+35:   A: "pointless"
+35:   B: "pointless"
+35: ok 35
+
+** Test FreezeThaw complexarray encoding
+36: array of arrays
+36:   A: "bob"
+36:   B: "bob"
+36: ok 36
+
+37: array of hashes
+37:   A: "1"
+37:   B: "1"
+37: ok 37
+
+** Test FreezeThaw selfrefarray encoding
+38: array self ref to internal array
+38:   A: "1"
+38:   B: "1"
+38: ok 38
+
+** Test FreezeThaw complexhash encoding
+39: hash of arrays
+39:   A: "two"
+39:   B: "two"
+39: ok 39
+
+40: hash of hashes
+40:   A: "1"
+40:   B: "1"
+40: ok 40
+
+41: hash of hash of hashes
+41:   A: "smelly"
+41:   B: "smelly"
+41: ok 41
+
+** Test FreezeThaw selfrefhash encoding
+42: hash self ref to internal array
+42:   A: "two"
+42:   B: "two"
+42: ok 42
+
+** Test Data::Dumper simplearray encoding
+43: array
+43:   A: "one"
+43:   B: "one"
+43: ok 43
+
+** Test Data::Dumper trickyscalar encoding
+44: tricky scalar
+44:   A: "{foo=>\22bar\22}"
+44:   B: "{foo=>\22bar\22}"
+44: ok 44
+
+** Test Data::Dumper simplehash encoding
+45: hash
+45:   A: "1"
+45:   B: "1"
+45: ok 45
+
+** Test Data::Dumper simpleobject encoding
+46: object namespace
+46:   A: "My::TestObj"
+46:   B: "My::TestObj"
+46: ok 46
+
+47: object data
+47:   A: "e"
+47:   B: "e"
+47: ok 47
+
+** Test Data::Dumper simplescalar encoding
+48: scalar
+48:   A: "pointless"
+48:   B: "pointless"
+48: ok 48
+
+** Test Data::Dumper simplescalarref encoding
+49: simple scalar ref
+49:   A: "pointless"
+49:   B: "pointless"
+49: ok 49
+
+** Test Data::Dumper complexarray encoding
+50: array of arrays
+50:   A: "bob"
+50:   B: "bob"
+50: ok 50
+
+51: array of hashes
+51:   A: "1"
+51:   B: "1"
+51: ok 51
+
+** Test Data::Dumper selfrefarray encoding
+52: array self ref to internal array
+52:   A: "1"
+52:   B: "1"
+52: ok 52
+
+** Test Data::Dumper complexhash encoding
+53: hash of arrays
+53:   A: "two"
+53:   B: "two"
+53: ok 53
+
+54: hash of hashes
+54:   A: "1"
+54:   B: "1"
+54: ok 54
+
+55: hash of hash of hashes
+55:   A: "smelly"
+55:   B: "smelly"
+55: ok 55
+
+** Test Data::Dumper selfrefhash encoding
+56: hash self ref to internal array
+56:   A: "two"
+56:   B: "two"
+56: ok 56
+
+** Test XML::Simple simplehash encoding
+57: hash
+57:   A: "1"
+57:   B: "1"
+57: ok 57
+
+** Test XML::Simple complexarray encoding
+58: array of arrays
+58:   A: "bob"
+58:   B: "bob"
+58: ok 58
+
+59: array of hashes
+59:   A: "1"
+59:   B: "1"
+59: ok 59
+
+** Test XML::Simple simplearray encoding
+60: array
+60:   A: "one"
+60:   B: "one"
+60: ok 60
+
+** Test XML::Simple complexhash encoding
+61: hash of arrays
+61:   A: "two"
+61:   B: "two"
+61: ok 61
+
+62: hash of hashes
+62:   A: "1"
+62:   B: "1"
+62: ok 62
+
+63: hash of hash of hashes
+63:   A: "smelly"
+63:   B: "smelly"
+63: ok 63
+
+** Test XML::Simple selfrefarray encoding
+64: array self ref to internal array
+64:   A: "1"
+64:   B: "1"
+64: ok 64
+
+** Test XML::Simple selfrefhash encoding
+65: hash self ref to internal array
+65:   A: "two"
+65:   B: "two"
+65: ok 65
+
+** Test Storable simplearray encoding
+66: array
+66:   A: "one"
+66:   B: "one"
+66: ok 66
+
+** Test Storable simplehash encoding
+67: hash
+67:   A: "1"
+67:   B: "1"
+67: ok 67
+
+** Test Storable simpleobject encoding
+68: object namespace
+68:   A: "My::TestObj"
+68:   B: "My::TestObj"
+68: ok 68
+
+69: object data
+69:   A: "e"
+69:   B: "e"
+69: ok 69
+
+** Test Storable simplescalarref encoding
+70: simple scalar ref
+70:   A: "pointless"
+70:   B: "pointless"
+70: ok 70
+
+** Test Storable complexarray encoding
+71: array of arrays
+71:   A: "bob"
+71:   B: "bob"
+71: ok 71
+
+72: array of hashes
+72:   A: "1"
+72:   B: "1"
+72: ok 72
+
+** Test Storable selfrefarray encoding
+73: array self ref to internal array
+73:   A: "1"
+73:   B: "1"
+73: ok 73
+
+** Test Storable complexhash encoding
+74: hash of arrays
+74:   A: "two"
+74:   B: "two"
+74: ok 74
+
+75: hash of hashes
+75:   A: "1"
+75:   B: "1"
+75: ok 75
+
+76: hash of hash of hashes
+76:   A: "smelly"
+76:   B: "smelly"
+76: ok 76
+
+** Test Storable selfrefhash encoding
+77: hash self ref to internal array
+77:   A: "two"
+77:   B: "two"
+77: ok 77
+
+** Test YAML::Syck simplearray encoding
+78: array
+78:   A: "one"
+78:   B: "one"
+78: ok 78
+
+** Test YAML::Syck trickyscalar encoding
+79: tricky scalar
+79:   A: "{foo=>\22bar\22}"
+79:   B: "{foo=>\22bar\22}"
+79: ok 79
+
+** Test YAML::Syck simplehash encoding
+80: hash
+80:   A: "1"
+80:   B: "1"
+80: ok 80
+
+** Test YAML::Syck simpleobject encoding
+81: object namespace
+81:   A: "My::TestObj"
+81:   B: "My::TestObj"
+81: ok 81
+
+82: object data
+82:   A: "e"
+82:   B: "e"
+82: ok 82
+
+** Test YAML::Syck simplescalar encoding
+83: scalar
+83:   A: "pointless"
+83:   B: "pointless"
+83: ok 83
+
+** Test YAML::Syck simplescalarref encoding
+84: simple scalar ref
+84:   A: "pointless"
+84:   B: "pointless"
+84: ok 84
+
+** Test YAML::Syck complexarray encoding
+85: array of arrays
+85:   A: "bob"
+85:   B: "bob"
+85: ok 85
+
+86: array of hashes
+86:   A: "1"
+86:   B: "1"
+86: ok 86
+
+** Test YAML::Syck selfrefarray encoding
+87: array self ref to internal array
+87:   A: "1"
+87:   B: "1"
+87: ok 87
+
+** Test YAML::Syck complexhash encoding
+88: hash of arrays
+88:   A: "two"
+88:   B: "two"
+88: ok 88
+
+89: hash of hashes
+89:   A: "1"
+89:   B: "1"
+89: ok 89
+
+90: hash of hash of hashes
+90:   A: "smelly"
+90:   B: "smelly"
+90: ok 90
+
+** Test YAML::Syck selfrefhash encoding
+91: hash self ref to internal array
+91:   A: "two"
+91:   B: "two"
+91: ok 91
+
+** Test JSON::Syck simplearray encoding
+92: array
+92:   A: "one"
+92:   B: "one"
+92: ok 92
+
+** Test JSON::Syck simplehash encoding
+93: hash
+93:   A: "1"
+93:   B: "1"
+93: ok 93
+
+** Test JSON::Syck complexarray encoding
+94: array of arrays
+94:   A: "bob"
+94:   B: "bob"
+94: ok 94
+
+95: array of hashes
+95:   A: "1"
+95:   B: "1"
+95: ok 95
+
+** Test JSON::Syck complexhash encoding
+96: hash of arrays
+96:   A: "two"
+96:   B: "two"
+96: ok 96
+
+97: hash of hashes
+97:   A: "1"
+97:   B: "1"
+97: ok 97
+
+98: hash of hash of hashes
+98:   A: "smelly"
+98:   B: "smelly"
+98: ok 98
+
+** Test Config::General simplehash encoding
+99: hash
+99:   A: "1"
+99:   B: "1"
+99: ok 99
+
+** Test Config::General complexhash encoding
+100: hash of arrays
+100:   A: "two"
+100:   B: "two"
+100: ok 100
+
+101: hash of hashes
+101:   A: "1"
+101:   B: "1"
+101: ok 101
+
+102: hash of hash of hashes
+102:   A: "smelly"
+102:   B: "smelly"
+102: ok 102
+
+** Test Config::General selfrefhash encoding
+103: hash self ref to internal array
+103:   A: "two"
+103:   B: "two"
+103: ok 103
+

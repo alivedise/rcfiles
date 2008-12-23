@@ -1,0 +1,5 @@
+. t/testenv.ksh
+unset SHELL_GETENV_TEST
+export SHELL_GETENV=ksh
+/usr/bin/perl '/home/klaymen/.cpan/build/Shell-GetEnv-0.08-Pa2Woo/blib/lib/Shell/GetEnv/Dumper.pm' /tmp/0MY02htkav
+exit

@@ -1,0 +1,18 @@
+--- 
+match:
+  distribution: "AUDREYT/YAML-Syck-"
+pl:
+  env:
+    PERL_AUTOINSTALL: --skip
+  eexpect:
+    mode: anyorder
+    timeout: 5
+    talk:
+      - "Continue installing YAML::Syck"
+      - "y\n"
+make:
+  env:
+    PERL_AUTOINSTALL: --skip    
+depends:
+  build_requires:
+    Devel::Leak: 0

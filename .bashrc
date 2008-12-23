@@ -33,6 +33,7 @@ alias mdiff="diff -ruN --exclude=.svn"
 alias g="grep"
 alias wg="wcgrep"
 alias cls="clear"
+alias vi="vim -p"
 
 # cd shortcuts
 alias pcd='cd ${PRODUCTDIR}'
@@ -57,6 +58,5 @@ export LINTDIR=/usr/share/pclint
 export MANSECT=8:2:1:3:4:5:6:7:9:0p:1p:3p:tcl:n:l:p:o
 #export PS1="[\u@\[\e[1;24m\]\h\[\e[0;24m\] \W]$ "
 
-
 # GIT daily repo commit variable
-export GIT_MANAGED_DIRECTORY="$HOME/archive/ $HOME/firmware/ $HOME/bombsite/ $HOME/usr"
+export GIT_MANAGED_DIRECTORY="$HOME/archive/ $HOME/firmware/ $HOME/bombsite/ $HOME/usr $HOME/rcfiles"
