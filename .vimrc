@@ -30,7 +30,7 @@ nmap W <Esc>:close!<Enter>
 nmap , <Esc>:tabprev<Enter>
 nmap . <Esc>:tabnext<Enter>
 nmap t <Esc>:tabnew<Enter>
-nmap s <Esc>:update<Enter>
+nmap s <Esc>:write<Enter>
 
 nmap 1 <Esc>:tabn 1<Enter>
 nmap 2 <Esc>:tabn 2<Enter>
