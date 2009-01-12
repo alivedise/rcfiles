@@ -59,6 +59,7 @@ nmap <C-l> <C-w>l
 map gf <esc><C-w>gF
 map gF <esc><C-w>gF
 
+au BufRead,BufNewFile *.js set ft=javascript.jquery
 au BufNewFile,BufRead  svn-commit.* setf svn
 au BufNewFile,BufRead  svn-log.* setf svn
 
