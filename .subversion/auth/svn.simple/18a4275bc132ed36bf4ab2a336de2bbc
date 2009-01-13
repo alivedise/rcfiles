@@ -1,0 +1,17 @@
+K 8
+passtype
+V 6
+simple
+K 8
+password
+V 7
+klaymen
+K 15
+svn:realmstring
+V 39
+<http://rd2-3:80> Subversion repository
+K 8
+username
+V 7
+klaymen
+END

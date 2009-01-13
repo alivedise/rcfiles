@@ -1,0 +1,9 @@
+--- 
+checkout: !!perl/hash:Data::Hierarchy 
+  hash: {}
+
+  sep: /
+  sticky: {}
+
+depotmap: 
+  "": /home/klaymen/.svk/local

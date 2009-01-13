@@ -1,0 +1,585 @@
+lftp -u root 172.16.2.146
+ls
+binary
+set binary
+set -a
+binary I
+I
+quit
+lftp http://edt1023.sayya.org/fonts/tex/cwt1/
+ls
+get cwfs-1.1.tar.gz cwhb-1.1.tar.gz cwk-1.1.tar.gz cwm-1.1.tar.gz cwy-1.1.tar.gz 
+quit
+lftp -u root 172.16.7.18
+put farseer.out 
+quit
+lftp 172.16.2.146
+ls
+quit
+lftp -u root 172.16.2.146
+ls
+put PT7135-VVTK-0201t.flash.rom flashall.bin
+ls
+quit
+lftp -u root 172.16.2.146
+put test.cgi
+quiot
+quit
+lftp -u root 172.16.2.146
+put test
+quit
+lftp 172.16.2.146 -p 25
+ls
+quit
+lftp 172.16.2.146 -p 25 -u klaymen
+ls
+quit
+lftp 172.16.2.146 -p 25 -u klaymen
+ls
+quit
+lftp localhost
+ls
+quit
+lftp 192.168.0.65
+put change_net_if.cgi
+quit
+lftp -u root 192.168.0.65
+ls
+put change_net_if.cgi
+exit
+lftp 192.168.0.242
+put gdbserver 
+ls
+quit
+lftp 192.168.0.242 -u root
+put gdbserver
+ls
+quit
+lftp ftp://ftp.ntu.edu.tw/pub/gnu/gnu/
+ls
+cd gdb
+ls
+cd ..
+cd screen/
+ls
+get screen-4.0.2.tar.gz
+quit
+lftp -u root 192.168.0.135
+put PT7137-DLNK-0201d.flash.rom flashall.bin
+help
+help put
+put PT7137-DLNK-0201d.flash.rom -o flashall.bin
+quit
+lftp 192.168.0.135 -u root
+put farseer.o
+put farseer.out 
+quit
+lftp 192.168.0.135 -u root
+put farseer.out 
+cd 
+ls
+quit
+lftp 192.168.0.135 -u root
+put farseer.out 
+quit
+lftp 192.168.0.135 -u root
+put farseer.out 
+quit
+lftp 192.168.0.135 -u root
+put farseer.out 
+cd ~
+ls
+lcd ~
+lcd gdbserver
+lcd arm
+lls
+lslocal
+ls
+help 
+put gdbserver
+ls
+lls
+lcd
+lcd pt7137-dlod/apps/webcam/build/
+put farseer.out 
+quit
+lftp 192.168.0.242
+quit
+lftp 192.168.0.242 -u root
+put eventd
+quit
+lftp 192.168.0.243 -u root
+put eventd
+quit
+lftp 192.168.0.135 -u root
+put farseer.out
+quit
+lftp -u root 192.168.0.135
+put farseer.out 
+quit
+lftp -u root 192.168.0.135
+put farseer.out 
+exit
+lftp -u root 192.168.0.135
+put farseer.out 
+quit
+lftp -u root 192.168.0.135
+quit
+lftp -u root 192.168.0.135
+put farseer.out 
+quit
+lftp 192.168.0.135 -u root
+put farseer.out 
+quit
+lftp -u root 192.168.0.135
+put farseer.out 
+quit
+lftp -u root 192.168.0.135
+put farseer.out 
+quit
+lftp 192.168.0.135 -u root
+put audiovideo.html ddns.html audiovideo.js
+quit
+lftp -u root 192.168.0.135
+put ddns.html
+quit
+lftp 192.168.0.135
+ls
+quit
+lftp 192.168.0.135 -u root
+ls
+put farseer.out 
+quit
+lftp 192.168.0.135 -u root
+put ddns.js ddns.html
+quit
+lftp -u root 192.168.0.107
+put RtspVaPgDec_Vivotek-
+put RtspVaPgDec_Vivotek-2.0.0.0.cab 
+quit
+lftp -u root 192.168.0.107
+put RtspVaPgDec_Vivotek-2.0.0.4.cab 
+quit
+lftp -u root 192.168.0.107
+put RtspVaPgDec_Vivotek-1.1.0.59.cab 
+quit
+lftp -u root 192.168.0.107
+put RtspVaPgDec_Vivotek-2.0.0.6.cab 
+quit
+lftp -u root 192.168.0.107
+put RtspVaPgDec_Vivotek-2.0.0.3.cab 
+quit
+lftp -u root 192.168.0.107
+put RtspVaPgDec_Vivotek-2.0.0.0.cab 
+quit
+lftp -u root 192.168.0.107
+put RtspVaPgDec_Vivotek-1.1.0.59.cab 
+quit
+lftp -u root 192.168.0.107
+put RtspVaPgDec_Vivotek-2.0.0.6.cab 
+quit
+lftp -u root 192.168.0.107
+ls
+quit
+lftp -u root 192.168.0.107
+ls
+quit
+lftp 192.168.0.104
+put RtspVaPgDec_vivotek.cab 
+ls
+quit
+lftp 192.168.0.104
+ls
+quit
+lftp 192.168.0.241 -u root
+put test
+quit
+lftp -u root 192.168.0.111
+put gen-new-eventd-conf.cgi 
+quit
+lftp -u root 192.168.0.65
+put gen-new-eventd-conf.c
+put gen-new-eventd-conf.cgi 
+quit
+lftp -u root 192.168.0.65
+put gen-new-eventd-conf.c
+put gen-new-eventd-conf.cgi 
+quit
+lftp -u root 192.168.0.111
+put RtspVaPgDec.cab 
+quit
+lftp -u root 192.168.0.66
+put farseer.o
+put farseer.out 
+quit
+lftp -u root 192.168.0.66
+put farseer.out 
+quit
+lftp -u root 192.168.0.66
+put farseer.out
+exit
+lftp -u root 192.168.0.66
+put eventd
+quit
+lftp -u root
+quit
+lftp -u root 192.168.0.66
+put gen-new-eventd-conf.cgi 
+quit
+lftp -u root 192.168.0.66
+ls
+put farseer.out 
+quit
+lftp zeus.cs.ccu.edu.tw
+quit
+lftp zeus.cs.ccu.edu.tw -u klaymen
+put qp_big5.c
+quit
+lftp zeus.cs.ccu.edu.tw -u klaymen
+quit
+lftp zeus.cs.ccu.edu.tw -u klaymen
+get qp.c
+quit
+lftp -u root 192.168.0.66
+ls
+put gen-new-eventd-conf.cgi 
+lcd ..
+lcd smtpclient/
+lcd smtpclient-1.0.0/
+lls
+put smtpclient
+quit
+lftp zeus.cs.ccu.edu.tw -u klaymen
+put apps.tar.bz2 
+ls
+rm -f apps.tar.bz
+quit
+lftp -u klaymen zeus.cs.ccu.edu.tw
+put *.bz2
+put motor.tar.bz2 
+put common.tar.bz2 
+put extio.tar.bz2 
+put ptzmodule.tar.bz2 
+quti
+ls
+quit
+lftp -u root
+lftp -u root 192.168.0.129
+put RtspVaPgDec.cab 
+quit
+lftp -u root 192.168.0.129
+get PT7137-DLNK-0202d-en.tar 
+quit
+lftp -u root 192.168.0.65
+ls
+quit
+lftp -u root 192.168.0.65
+quit
+lftp -u root 192.168.0.65
+ls
+get IP7137-DLNK-0203b-en.tar 
+quit
+lftp 172.16.2.146 -u root
+put farseer.out
+quit
+lftp -u root 192.168.2.213
+ls
+get PT7137_ASUS_0101f_en.tar 
+quit
+lftp -u root 172.16.2.147
+put ptburn
+quit
+lftp 172.16.2.147
+ls
+quit
+lftp 172.16.2.147 -u root
+ls
+quit
+lftp -u root 172.16.2.147
+put motor.o
+quit
+lftp -u root 172.16.2.148
+ls
+get IP7137_DLNK_0203c-en.tar 
+quit
+lftp -u root 172.16.2.109
+cd /mnt/flash/www/
+ls
+cd include/
+ls
+delete translator.xml 
+rm translator.xml 
+put translator
+put translator.xml 
+quit
+lftp 172.16.2.148 -u root
+ls
+cd /etc/conf.d/
+ls
+cd ..
+ls
+get inetd.conf 
+ls
+quit
+lftp 172.16.2.148 -u root
+cd /etc
+ls
+put inetd.conf 
+quit
+lftp -u root 172.16.7.50
+ls
+quit
+lftp -u root 172.16.7.50
+ls
+get PT7137_DLNK-en.tar 
+quit
+lftp klaymen@rd1-3
+cd usr/lib/
+ls
+cd 
+get perl5.tar.bz2 
+quit
+lftp -u wen ftp.vivotek.com
+ls
+get vista.reg
+get xp_sp2.reg 
+quit
+lftp -u klaymen 172.16.5.31
+cd bkls
+ls
+passive
+help 
+ls
+lftp -u klaymen 172.16.5.32
+ls
+cd bkfw-clss-pz7151/flashfs/etc/conf.d/
+ls
+put config_dst.xml
+quit
+lftp -u klaymen 172.16.5.32
+cd bkfw-clss-pz7151/flashfs/etc/conf.d/
+ls
+put config_dst.xml 
+cd ..
+ls
+cd ..
+cd www/en/n
+ls
+cd www/en/
+cd setup/
+ls
+put timezone.htm 
+quit
+lftp -u klaymen 172.16.5.31
+lftp -u klaymen 172.16.5.32
+cd bkfw-clss-pz7151/flashfs/www/en/
+ls
+cd setup/
+ls
+put timezone.htm 
+cd ..
+ls
+cd ..
+ls
+cd ../etc/conf.d/
+put config_dst.xml 
+quit
+lftp -u klaymen 172.16.5.32
+cd bkfw-clss-pz7151/
+ls
+cd flashfs/www/en/
+cd setup/
+put timezone.htm 
+quit
+lftp -u klaymen 172.16.5.32
+cd bkfw-clss-pz7151/flashfs/www/en/setup/
+put timezone.htm 
+ls
+quit
+lftp -u klaymen 172.16.5.32
+cd bkfw-clss-pz7151/flashfs/etc/conf.d/
+l
+cd ../../www/en/
+ls
+cd setup/
+put timezone.htm
+quit
+lftp -u klaymen 172.16.5.32
+ls
+cd bkfw-clss-pz7151/flashfs/www/en/
+ls
+cd setup/
+put timezone.htm
+quit
+lftp root@172.16.7.20
+put gen-new-eventd-conf.cgi 
+quit
+lftp ftp://ftp.ntu.edu.tw/pub/gnu/gnu/
+ls
+cd emacs/
+ls
+lftp -u admin 172.16.7.52
+ls
+cd boa/
+ls
+get boa.conf
+cd /etc/conf.d/boa/
+ls
+get boa.conf boa.conf_orig
+quit
+lftp -u klaymen rd1-3
+ls
+cd ../hoz
+ls
+cd SD7151_VVTK/apps/app_cluster/ptzctrl/app/
+ls
+cd ptzctrl/
+ls
+cd src/
+ls
+get init.d-burnin 
+quit
+lftp 172.16.7.113 -p 1024
+ls
+quit
+lftp 172.16.7.113 -p 1024 -u admin
+ls
+quit
+lftp 172.16.7.113 -p 1024 -u admin
+ls
+quit
+lftp 172.16.7.113 -p 1024 -u admin
+ls
+lftp 172.16.7.113 -u admin
+ls
+quit
+lftp -u admin 12.19.89.207
+ls
+quit
+lftp -u admin 12.19.89.207 -p 12108
+ls
+put strace 
+quit
+lftp -u cysh92 csie0.cs.ccu.edu.tw
+put PT7137-DLTW-0100d.flash.rom
+quit
+lftp -u root 172.16.7.115
+ls
+getquit
+quit
+lftp -u root 172.16.7.117
+ls
+get master_cap.yuv 
+quit
+lftp -u root 172.16.7.132
+put conf.d/config_videoin.xml
+quit
+lftp -u root 172.16.7.83
+cd /etc
+get CDF.xml 
+quit
+lftp -u root 172.16.7.83
+cd /etc
+put CDF.xml
+quit
+lftp -u root 172.16.7.83
+cd /etc
+put CDF.xml
+quit
+lftp -u root 172.16.7.105
+put cacert.pem client_* 
+put cacert.pem client_cert.pem  client_key.pem 
+quitls
+quit
+lftp -u root 172.16.7.105
+put cacert.pem client_key.pem client_cert.pem 
+quit
+lftp -u root 172.16.7.105
+put cacert.pem client_cert.pem client_key.pem 
+quit
+lftp -u root 172.16.7.105
+put cacert.pem client_cert.pem client_key.pem 
+quit
+lftp -u root 172.16.7.105
+put cacert.pem  client_cert.pem  client_key.pem 
+quit
+lftp -u root 172.16.7.105
+put cacert.pem client_key.pem client_cert.pem 
+quit
+lftp -u root 172.16.7.105
+put cacert.pem client_cert.pem client_key.pem 
+quit
+lftp -u root 172.16.7.105
+put cacert.pem client_cert.pem client_key.pem 
+quit
+lftp -u root 172.16.7.117
+put cacert.pem client_cert.pem client_key.pem 
+quit
+lftp -u root 172.16.7.117
+put CDF.xml 
+quit
+lftp -u root 172.16.7.117
+cd /etc/
+put CDF.xml
+quit
+lftp -u root 172.16.7.117
+cd /etc/conf.d
+put config_ieee8021x.xml
+quit
+lftp -u root 172.16.7.117
+cd /etc
+put CDF.xml 
+quit
+lftp -u root 172.16.7.117
+cd /etc/
+put CDF.xml 
+quit
+lftp -u root 172.16.7.117
+cd /etc
+put CDF.xml
+quit
+lftp -u root 172.16.7.117
+put update_ieee8021x 
+quit
+lftp -u root 172.16.7.117
+cd /etc
+put CDF.xml 
+quit
+lftp -u root 172.16.7.117
+put config_ieee8021x.xml
+quit
+lftp -u root 172.16.7.117
+cd /etc
+put CDF.xml
+quit
+lftp -u root 172.16.7.117
+cd /etc/conf.d
+put config_ieee8021x.xml 
+quit
+lftp -u root 172.16.7.117
+cd /etc
+put CDF.xml 
+quit
+lftp -u root 172.16.7.117
+cd /etc
+put CDF.xml
+quit
+lftp -u root 172.16.7.117
+put config_ieee8021x.xml 
+quit
+lftp -u root 172.16.7.117
+put config_ieee8021x.xml
+quit
+lftp -u root 172.16.7.117
+ls
+put CDF.xml
+quit
+lftp -u root 172.16.7.117
+cd /etc
+put CDF.xml 
+quit
+lftp -u root 172.16.7.117
+cd /etc/conf.d
+put config_ieee8021x.xml  -p 9 
+put config_ieee8021x.xml 
+quit
