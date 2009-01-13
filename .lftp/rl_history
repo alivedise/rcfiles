@@ -583,3 +583,30 @@ cd /etc/conf.d
 put config_ieee8021x.xml  -p 9 
 put config_ieee8021x.xml 
 quit
+lftp -u root 172.16.7.117
+put update_ieee8021x 
+quit
+lftp -u root 172.16.7.117
+put update_ieee8021x
+quit
+lftp -u root 172.16.7.117
+put update_e
+put update_ieee8021x 
+quit
+lftp -u root 172.16.7.117
+put config-lan
+quit
+lftp -u root 172.16.7.87
+cd /etc/conf.d/ssl
+put client_cert.pem 
+quit
+lftp -u root 192.168.4.130
+cd /usr/sbin
+quit
+lftp -u root 192.168.4.130
+cd /usr/sbin
+get vencslave 
+quit
+lftp -u root 172.16.7.117
+put vencslave 
+quit

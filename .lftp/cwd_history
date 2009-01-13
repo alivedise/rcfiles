@@ -19,12 +19,13 @@ ftp://root@172.16.2.147         	1190178595:/mnt/ramdisk
 ftp://root@172.16.2.148         	1190801135:/etc
 ftp://root@172.16.7.105         	1231384147:/mnt/ramdisk
 ftp://root@172.16.7.115         	1228118099:/mnt/ramdisk
-ftp://root@172.16.7.117         	1231754414:/etc/conf.d
+ftp://root@172.16.7.117         	1231843244:/mnt/ramdisk
 ftp://root@172.16.7.132         	1229933917:/mnt/ramdisk
 ftp://root@172.16.7.18          	1176080410:/mnt/ramdisk
 ftp://root@172.16.7.20          	1214200949:/mnt/ramdisk
 ftp://root@172.16.7.50          	1190981471:/mnt/ramdisk
 ftp://root@172.16.7.83          	1230175666:/etc
+ftp://root@172.16.7.87          	1231829665:/etc/conf.d/ssl
 ftp://root@192.168.0.107        	1181029164:/mnt/ramdisk
 ftp://root@192.168.0.111        	1181792569:/mnt/ramdisk
 ftp://root@192.168.0.129        	1184236247:/mnt/ramdisk
@@ -35,5 +36,6 @@ ftp://root@192.168.0.243        	1179287448:/mnt/ramdisk
 ftp://root@192.168.0.65         	1184236308:/mnt/ramdisk
 ftp://root@192.168.0.66         	1183081122:/mnt/ramdisk
 ftp://root@192.168.2.213        	1185188116:/mnt/ramdisk
+ftp://root@192.168.4.130        	1231842994:/usr/sbin
 ftp://wen@ftp.vivotek.com       	1211178022:/
 http://edt1023.sayya.org        	1175491794:/fonts/tex/cwt1
