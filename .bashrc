@@ -34,6 +34,7 @@ alias g="grep"
 alias wg="wcgrep"
 alias cls="clear"
 alias vi="vim -p"
+alias svn-diff="svn-di"
 
 # cd shortcuts
 alias pcd='cd ${PRODUCTDIR}'
