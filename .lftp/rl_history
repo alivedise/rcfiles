@@ -610,3 +610,9 @@ quit
 lftp -u root 172.16.7.117
 put vencslave 
 quit
+lftp -u klaymen 172.16.5.32
+ls 
+quit
+lftp -u klaymen 172.16.5.32
+ls 
+quit
