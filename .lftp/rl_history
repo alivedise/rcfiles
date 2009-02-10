@@ -616,3 +616,7 @@ quit
 lftp -u klaymen 172.16.5.32
 ls 
 quit
+lftp -u klaymen 172.16.5.32
+ls
+put Makefile
+quit
