@@ -620,3 +620,12 @@ lftp -u klaymen 172.16.5.32
 ls
 put Makefile
 quit
+lftp -u klaymen 172.16.5.32
+put inetutils-1.4.2.tar.bz2 
+quit
+lftp -u klaymen 172.16.5.32
+put inetutils-1.4.2.tar.bz2 
+quit
+lftp -u klaymen 172.16.5.32
+put inetutils-1.4.2.tar.bz2 
+quit

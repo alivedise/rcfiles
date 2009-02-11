@@ -9,7 +9,7 @@ ftp://admin@172.16.7.113:1024   	1220928454:/mnt/ramdisk
 ftp://admin@172.16.7.52         	1217396121:/etc/conf.d/boa
 ftp://cysh92@csie0.cs.ccu.edu.tw	1223278572:/.amd_mnt/cs1/host/csdata/home/master/ms92/cysh92
 ftp://ftp.ntu.edu.tw            	1215484770:/pub/gnu/gnu/emacs
-ftp://klaymen@172.16.5.32       	1234263126:/home/klaymen
+ftp://klaymen@172.16.5.32       	1234359604:/home/klaymen
 ftp://klaymen@rd1-3             	1217423196:/home/hoz/SD7151_VVTK/apps/app_cluster/ptzctrl/app/ptzctrl/src
 ftp://klaymen@zeus.cs.ccu.edu.tw	1184154122:/home/klaymen
 ftp://localhost                 	1176286315:/
