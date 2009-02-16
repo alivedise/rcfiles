@@ -90,19 +90,19 @@ enable-auto-props = yes
 ### '?').  All entries which match will be applied to the file.
 ### Note that auto-props functionality must be enabled, which
 ### is typically done by setting the 'enable-auto-props' option.
-*.c = svn:eol-style=native
-*.cpp = svn:eol-style=native
-*.h = svn:eol-style=native
-*.dsp = svn:eol-style=CRLF
-*.dsw = svn:eol-style=CRLF
-*.sh = svn:eol-style=native;svn:executable
-*.txt = svn:eol-style=native
-*.png = svn:mime-type=image/png
-*.jpg = svn:mime-type=image/jpeg
-*.html = svn:mime-type=text/html
-*.htm = svn:mime-type=text/html
-*.css = svn:mim-type=text/css
-*.xml = svn:mime-type=text/xml
-*.js = svn:mime-type=text/javascript
-Makefile = svn:eol-style=native
+# *.c = svn:eol-style=native
+# *.cpp = svn:eol-style=native
+# *.h = svn:eol-style=native
+# *.dsp = svn:eol-style=CRLF
+# *.dsw = svn:eol-style=CRLF
+# *.sh = svn:eol-style=native;svn:executable
+# *.txt = svn:eol-style=native
+# *.png = svn:mime-type=image/png
+# *.jpg = svn:mime-type=image/jpeg
+# *.html = svn:mime-type=text/html
+# *.htm = svn:mime-type=text/html
+# *.css = svn:mim-type=text/css
+# *.xml = svn:mime-type=text/xml
+# *.js = svn:mime-type=text/javascript
+# Makefile = svn:eol-style=native
 
