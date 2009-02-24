@@ -20,8 +20,8 @@ set incsearch
 set hlsearch
 syntax on
 set vb
-"set t_Co=256
 colorscheme peaksea
+"set t_Co=256
 
 nmap q <Esc>:qall<Enter>
 nmap Q <Esc>:qall!<Enter>
