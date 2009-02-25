@@ -642,3 +642,22 @@ lftp -u root 172.16.7.77
 put SD73X3-VVTK-0100c.bootenv.pkg 
 ls
 quit
+lftp 172.16.7.77
+lftp -u root 172.16.7.77
+put showimage.js 
+quit
+lftp -u root 172.16.7.77
+put showimage.js 
+quit
+lftp -u root 172.16.7.77
+ls
+put showimage.js 
+quit
+lftp -u root 172.16.7.77
+ls
+get event_functions 
+put event_functions 
+quit
+lftp -u klaymen 172.16.5.32
+put SD73X3-VVTK-0100c.flash.rom 
+quit
