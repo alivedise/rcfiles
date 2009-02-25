@@ -629,3 +629,16 @@ quit
 lftp -u klaymen 172.16.5.32
 put inetutils-1.4.2.tar.bz2 
 quit
+lftp -u root 172.16.7.77
+ls
+put SD73X3-VVTK-0100c.flash.rom 
+ls
+put gapp 
+get gapp 
+l
+ls
+quit
+lftp -u root 172.16.7.77
+put SD73X3-VVTK-0100c.bootenv.pkg 
+ls
+quit

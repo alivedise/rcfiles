@@ -24,6 +24,7 @@ ftp://root@172.16.7.132         	1229933917:/mnt/ramdisk
 ftp://root@172.16.7.18          	1176080410:/mnt/ramdisk
 ftp://root@172.16.7.20          	1214200949:/mnt/ramdisk
 ftp://root@172.16.7.50          	1190981471:/mnt/ramdisk
+ftp://root@172.16.7.77          	1235528941:/mnt/ramdisk
 ftp://root@172.16.7.83          	1230175666:/etc
 ftp://root@172.16.7.87          	1231829665:/etc/conf.d/ssl
 ftp://root@192.168.0.107        	1181029164:/mnt/ramdisk
