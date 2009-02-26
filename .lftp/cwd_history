@@ -17,6 +17,8 @@ ftp://root@172.16.2.109         	1190294839:/mnt/flash/www/include
 ftp://root@172.16.2.146         	1185153644:/mnt/ramdisk
 ftp://root@172.16.2.147         	1190178595:/mnt/ramdisk
 ftp://root@172.16.2.148         	1190801135:/etc
+ftp://root@172.16.3.55          	1235627729:/mnt/ramdisk
+ftp://root@172.16.3.60          	1235628342:/mnt/ramdisk
 ftp://root@172.16.7.105         	1231384147:/mnt/ramdisk
 ftp://root@172.16.7.115         	1228118099:/mnt/ramdisk
 ftp://root@172.16.7.117         	1231843244:/mnt/ramdisk
@@ -25,7 +27,7 @@ ftp://root@172.16.7.16          	1235617629:/mnt/ramdisk
 ftp://root@172.16.7.18          	1176080410:/mnt/ramdisk
 ftp://root@172.16.7.20          	1214200949:/mnt/ramdisk
 ftp://root@172.16.7.50          	1190981471:/mnt/ramdisk
-ftp://root@172.16.7.77          	1235549358:/mnt/ramdisk
+ftp://root@172.16.7.77          	1235627634:/mnt/ramdisk
 ftp://root@172.16.7.83          	1230175666:/etc
 ftp://root@172.16.7.87          	1231829665:/etc/conf.d/ssl
 ftp://root@192.168.0.107        	1181029164:/mnt/ramdisk

@@ -677,3 +677,21 @@ quit
 lftp -u root 172.16.7.16
 put SD73X3-VVTK-0100c.flash.rom 
 quit
+lftp -u root 172.16.7.77
+put SD73X3-VVTK-0100c.flash.rom 
+quit
+lftp -u root 172.16.3.55
+put SD73X3-VVTK-0100c.flash.rom 
+quit
+lftp -u 172.16.3.60
+ls
+quit
+lftp -u root 172.16.3.60
+ls
+put SD73X3-VVTK-0100c.flash.rom 
+quit
+lftp -u root 172.16.3.60
+ls
+put SD73X3-VVTK-0100c.flash.rom 
+ps
+bye
