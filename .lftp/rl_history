@@ -661,3 +661,19 @@ quit
 lftp -u klaymen 172.16.5.32
 put SD73X3-VVTK-0100c.flash.rom 
 quit
+lftp 172.16.7.16 -u root
+ls
+put SD73X3-VVTK-0100c.flash.rom 
+quit
+lftp 172.16.7.16 -u root
+hash
+help 
+passive
+pasv
+ls
+put SD73X3-VVTK-0100c.flash.rom 
+ls
+quit
+lftp -u root 172.16.7.16
+put SD73X3-VVTK-0100c.flash.rom 
+quit
