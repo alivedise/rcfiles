@@ -695,3 +695,7 @@ ls
 put SD73X3-VVTK-0100c.flash.rom 
 ps
 bye
+lftp -u root 172.16.7.16
+ls
+put SD73X3-VVTK-0100c.flash.rom 
+quit
