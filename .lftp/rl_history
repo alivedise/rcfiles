@@ -699,3 +699,11 @@ lftp -u root 172.16.7.16
 ls
 put SD73X3-VVTK-0100c.flash.rom 
 quit
+lftp ftp.vivotek.com
+quit
+lftp wen@ftp.vivotek.com
+ls
+quit
+lftp cysh92@csie0.cs.ccu.edu.tw
+put strace
+quit
