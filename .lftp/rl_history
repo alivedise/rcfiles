@@ -707,3 +707,23 @@ quit
 lftp cysh92@csie0.cs.ccu.edu.tw
 put strace
 quit
+lftp -u greg
+quit
+lftp -u greg 68.15.82.210
+sl
+ls
+cd vivotek
+ls
+cd ../pvc300 
+ls
+lls
+put toolchain.zip 
+cd ..
+put toolchain.zip 
+l
+ls
+cd vivotek
+ls
+put toolchain.zip 
+ls 
+exit
