@@ -20,8 +20,9 @@ set incsearch
 set hlsearch
 syntax on
 set vb
-colorscheme peaksea
-"set t_Co=256
+colorscheme BusyBee
+set t_Co=256
+set bg=dark
 
 nmap q <Esc>:qall<Enter>
 nmap Q <Esc>:qall!<Enter>
@@ -83,7 +84,6 @@ xmap <tab> >gv
 xmap <s-tab> <gv
 nmap cr=    $F=lcf;
 nmap cl=    $F=hc^
-set bg=dark
 set wildmode=list:longest
 set scrolloff=4
 set sidescrolloff=4
