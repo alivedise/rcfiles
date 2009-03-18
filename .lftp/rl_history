@@ -727,3 +727,15 @@ ls
 put toolchain.zip 
 ls 
 exit
+lftp -u greg 68.15.82.210
+ls
+cd vivotek
+ls
+help 
+mkdir GPL
+cd GPL
+ls
+put PVC-300.tar.gz*
+put PVC-300.tar.gz
+put PVC-300.tar.gz.md5 
+exit
