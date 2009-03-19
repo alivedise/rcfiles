@@ -739,3 +739,20 @@ put PVC-300.tar.gz*
 put PVC-300.tar.gz
 put PVC-300.tar.gz.md5 
 exit
+lftp -u greg 68.15.82.210
+ls
+cd vivotek/
+ls
+cd GPL
+ls
+get PVC-300.tar.gz.md5
+mkdir source-code-collection
+mkdir toolchain-and-firmware
+ls
+mv PVC-300.tar.gz toolchain-and-firmware/
+mv PVC-300.tar.gz.md5 toolchain-and-firmware/
+ls
+cd source-code-collection/
+ls
+put PZ7151-CLSS.zip 
+quit
