@@ -756,3 +756,9 @@ cd source-code-collection/
 ls
 put PZ7151-CLSS.zip 
 quit
+lftp -u root 211.74.12.57
+put ptzctrl 
+quit
+lftp -u root 203.73.10.222
+put ptzctrl 
+quit 
