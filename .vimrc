@@ -1,16 +1,16 @@
 set nocp
 
-if &term =~ "xterm"
-	if has("terminfo")
-		set t_Co=8
-		set t_Sf=[3%p1%dm
-		set t_Sb=[4%p1%dm
-	else
-		set t_Co=8
-		set t_Sf=[3%dm
-		set t_Sb=[4%dm
-	endif
-endif
+"if &term =~ "xterm"
+"    if has("terminfo")
+"        set t_Co=8
+"        set t_Sf=[3%p1%dm
+"        set t_Sb=[4%p1%dm
+"    else
+"        set t_Co=8
+"        set t_Sf=[3%dm
+"        set t_Sb=[4%dm
+"    endif
+"endif
 
 set ts=4
 set sw=4
@@ -20,9 +20,12 @@ set incsearch
 set hlsearch
 syntax on
 set vb
-colorscheme BusyBee
-set t_Co=256
 set bg=dark
+set t_Co=256
+colorscheme peaksea
+
+" it seems we need to write it twice to let levis got this 
+"set bg=dark
 
 nmap q <Esc>:qall<Enter>
 nmap Q <Esc>:qall!<Enter>
