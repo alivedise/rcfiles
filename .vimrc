@@ -92,3 +92,5 @@ set scrolloff=4
 set sidescrolloff=4
 set ignorecase
 set smartcase
+
+let g:DirDiffExcludes=".svn,tags,cscope.out"
