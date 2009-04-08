@@ -50,6 +50,7 @@ nmap m <Esc>:Tlist<Enter>
 nmap e <Esc>:NERDTreeToggle<Enter>
 
 nmap d <Esc>:VCSVimDiff<Enter>
+nmap D <Esc>w
 
 nmap i <Esc>gfd
 nmap I <Esc>ww
@@ -94,3 +95,6 @@ set ignorecase
 set smartcase
 
 let g:DirDiffExcludes=".svn,tags,cscope.out"
+
+map <C-U> <C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y>
+map <C-D> <C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E>
