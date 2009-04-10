@@ -108,6 +108,8 @@ EnhComm-Options	EnhancedCommentify.txt	/*EnhComm-Options*
 EnhComm-Support	EnhancedCommentify.txt	/*EnhComm-Support*
 EnhancedCommentify	EnhancedCommentify.txt	/*EnhancedCommentify*
 EnhancedCommentify()	EnhancedCommentify.txt	/*EnhancedCommentify()*
+LargeFile-copyright	LargeFile.txt	/*LargeFile-copyright*
+LargeFile.txt	LargeFile.txt	/*LargeFile.txt*
 LookupFile-command	lookupfile.txt	/*LookupFile-command*
 LookupFile_AllowNewFiles	lookupfile.txt	/*LookupFile_AllowNewFiles*
 LookupFile_AlwaysAcceptFirst	lookupfile.txt	/*LookupFile_AlwaysAcceptFirst*
@@ -358,6 +360,8 @@ hicurline-start	HiCurLine.txt	/*hicurline-start*
 hicurline-stopping	HiCurLine.txt	/*hicurline-stopping*
 hicurline-usage	HiCurLine.txt	/*hicurline-usage*
 hicurline.txt	HiCurLine.txt	/*hicurline.txt*
+largefile	LargeFile.txt	/*largefile*
+largefile-history	LargeFile.txt	/*largefile-history*
 lookupfile-acknowledgements	lookupfile.txt	/*lookupfile-acknowledgements*
 lookupfile-buffer-cmd-alternative	lookupfile.txt	/*lookupfile-buffer-cmd-alternative*
 lookupfile-changes	lookupfile.txt	/*lookupfile-changes*
