@@ -1,7 +1,0 @@
---- 
-match:
-  distribution: "^GRANTM/XML-SAX-\d"
-pl: 
-  expect:
-    - "Do you want XML::SAX to alter ParserDetails.ini"
-    - "y\n"

@@ -1,7 +1,0 @@
---- 
-match:
-  distribution: "^SREZIC/Tk-HistEntry-"
-test: 
-  env:
-    BATCH: 1
-    DISPLAY: ":121"

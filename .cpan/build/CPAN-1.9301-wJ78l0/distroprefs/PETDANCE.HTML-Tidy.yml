@@ -1,4 +1,0 @@
----
-match:
-  distribution: "^PETDANCE/HTML-Tidy-1.06.tar.gz"
-goto: "PETDANCE/HTML-Tidy-1.07_01.tar.gz"

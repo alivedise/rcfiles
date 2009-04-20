@@ -1,7 +1,0 @@
----
-match:
-  distribution: "^ASCOPE/Net-Google-\d"
-test:
-  expect:
-    - "Please enter your Google API key"
-    - "xxxxxxxx\n"

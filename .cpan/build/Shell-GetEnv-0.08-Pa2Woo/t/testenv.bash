@@ -1,2 +1,0 @@
-unset SHELL_GETENV_TEST
-export SHELL_GETENV=bash

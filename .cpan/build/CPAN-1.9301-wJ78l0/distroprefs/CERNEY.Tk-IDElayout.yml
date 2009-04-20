@@ -1,6 +1,0 @@
----
-match:
-  distribution: "CERNEY/Tk-IDElayout-\d"
-test:
-  env:
-    DISPLAY: ":121"

@@ -1,5 +1,0 @@
-source t/testenv.csh
-unsetenv SHELL_GETENV_TEST
-setenv SHELL_GETENV csh
-/usr/bin/perl '/home/klaymen/.cpan/build/Shell-GetEnv-0.08-Pa2Woo/blib/lib/Shell/GetEnv/Dumper.pm' /tmp/oKWLnbgbfg
-exit

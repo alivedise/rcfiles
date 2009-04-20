@@ -1,7 +1,0 @@
---- 
-match:
-  distribution: "^INGY/Inline-"
-pl: 
-  expect:
-    - "Do you want to install Inline::C"
-    - "y\n"

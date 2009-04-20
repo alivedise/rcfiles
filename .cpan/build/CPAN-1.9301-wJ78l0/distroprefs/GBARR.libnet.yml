@@ -1,7 +1,0 @@
----
-match:
-  distribution: "^GBARR/libnet-"
-pl: 
-  expect:
-    - "Do you want to modify/update your configuration"
-    - "n\n"

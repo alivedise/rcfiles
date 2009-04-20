@@ -1,5 +1,0 @@
----
-match:
-  distribution: "DOWENS/JSON-DWIW-0.21.tar.gz"
-patches:
-  - "ANDK/patches/JSON-DWIW-0.21-ANDK-01.patch.gz"

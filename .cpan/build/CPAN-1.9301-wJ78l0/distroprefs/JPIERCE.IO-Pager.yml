@@ -1,7 +1,0 @@
----
-match:
-  distribution: "^JPIERCE/IO-Pager-0.06"
-test:
-  expect:
-    - "Is this reasonable"
-    - "Y\n"

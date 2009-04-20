@@ -1,7 +1,0 @@
----
-match:
-  distribution: "^JMGDOC/OpenOffice-OODoc-\d"
-pl:
-  expect:
-    - "Is that OK"
-    - "y\n"

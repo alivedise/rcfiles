@@ -1,8 +1,0 @@
----
-comment: |
-
-  occupies 450 MB * 2 or so
-
-match:
-  distribution: "ESUMMERS/MARC-Charset-\d"
-disabled: 1

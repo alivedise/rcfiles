@@ -1,8 +1,0 @@
----
-match:
-  distribution: "^SZABGAB/Spreadsheet-ParseExcel-\d"
-depends:
-  requires:
-    Spreadsheet::WriteExcel: 0
-    Jcode: 0
-    Unicode::Map: 0

@@ -1,5 +1,0 @@
-. t/testenv.bash
-unset SHELL_GETENV_TEST
-export SHELL_GETENV=bash
-/usr/bin/perl '/home/klaymen/.cpan/build/Shell-GetEnv-0.08-Pa2Woo/blib/lib/Shell/GetEnv/Dumper.pm' /tmp/rZAerL7uoA
-exit

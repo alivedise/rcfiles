@@ -1,5 +1,0 @@
----
-match:
-  distribution: "YEWENBIN/Calendar-0.02.tar.gz"
-disabled: 1
-comment: "runs out of memory"
