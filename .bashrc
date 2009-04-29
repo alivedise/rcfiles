@@ -25,7 +25,7 @@ alias mi="make install"
 alias ma="mca; m; mi"
 
 # other shortcuts/alias
-alias mdiff="diff -ruN --exclude=.svn"
+alias mdiff="diff -ruN --exclude=.svn --exclude=cscope.out --exclude=tags --exclude=*~ -b"
 alias g="grep"
 alias wg="wcgrep"
 alias cls="clear"
