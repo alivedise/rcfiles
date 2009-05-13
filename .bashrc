@@ -60,3 +60,4 @@ export GIT_MANAGED_DIRECTORY="$HOME/archive/ $HOME/firmware/ $HOME/bombsite/ $HO
 
 # source svn completion script
 source $HOME/rcfiles/svn_completion
+source $HOME/rcfiles/git-completion
