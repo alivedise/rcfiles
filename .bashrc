@@ -26,17 +26,16 @@ alias ma="mca; m; mi"
 
 # other shortcuts/alias
 alias mdiff="diff -ruN --exclude=.svn --exclude=cscope.out --exclude=tags --exclude=*~ -b"
-alias g="grep"
 alias wg="wcgrep"
-alias cls="clear"
 alias vi="vim -p"
 alias svn-diff="svn-di"
 alias without="grep -v"
+alias pd="pushd"
 
 # cd shortcuts
 alias pcd='cd ${PRODUCTDIR}'
 alias scd='cd ${PRODUCTDIR}/build/scripts'
-alias kcd='cd ${IMAGEDIR}'
+alias icd='cd ${IMAGEDIR}'
 alias cd..='cd ..'
 export ad="${PRODUCTDIR}/apps"
 
@@ -56,7 +55,7 @@ export LINTDIR=/usr/share/pclint
 export MANSECT=8:2:1:3:4:5:6:7:9:0p:1p:3p:tcl:n:l:p:o
 
 # GIT daily repo commit variable
-export GIT_MANAGED_DIRECTORY="$HOME/archive/ $HOME/firmware/ $HOME/bombsite/ $HOME/usr $HOME/rcfiles $HOME/project $HOME/docs $HOME/ptz-stop-issue-sd7151"
+export GIT_MANAGED_DIRECTORY="$HOME/archive/ $HOME/firmware/ $HOME/bombsite/ $HOME/usr $HOME/rcfiles $HOME/project $HOME/docs"
 
 # source svn completion script
 source $HOME/rcfiles/svn_completion
