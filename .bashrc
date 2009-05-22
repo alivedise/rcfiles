@@ -37,6 +37,7 @@ alias pcd='cd ${PRODUCTDIR}'
 alias scd='cd ${PRODUCTDIR}/build/scripts'
 alias icd='cd ${IMAGEDIR}'
 alias cd..='cd ..'
+alias cd-='cd -'
 export ad="${PRODUCTDIR}/apps"
 
 # save time from typoes
