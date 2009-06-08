@@ -762,3 +762,93 @@ quit
 lftp -u root 203.73.10.222
 put ptzctrl 
 quit 
+lftp 172.16.7.37
+ls
+quit
+lftp 172.16.7.37 -u admin
+ls
+get output
+quit
+lftp 172.16.7.31
+ls
+user
+user admin 
+ls
+get out
+quit
+lftp -u admin 172.16.7.31
+get jj
+quit
+lftp -u admin 172.16.7.31
+get jj
+quit
+lftp -u admin 172.16.7.31
+ls
+get jj
+quit
+lftp -u admin 172.16.7.31
+get jj
+quit
+lftp -u admin 172.16.7.31
+get kk
+quit
+lftp -u admin 172.16.7.31
+get kk
+quit
+lftp -u admin 172.16.7.31
+get kk
+quit
+lftp -u admin 172.16.7.31
+get kk
+quit
+lftp -u admin 172.16.7.31
+get kk
+quit
+lftp -u admin 172.16.7.31
+get 32
+quit
+lftp -u admin 172.16.7.31
+get 64
+quit
+lftp -u admin 172.16.7.54
+get 0ut
+quit
+lftp -u admin 172.16.7.54
+get out 
+quit
+lftp -u admin 172.16.7.54
+ls
+get out 
+quit
+lftp -u admin 172.16.7.54
+get out
+quit
+lftp -u admin 172.16.7.54
+get out
+quit
+lftp -u admin 172.16.7.54
+get out 
+ls
+get out
+quit
+lftp -u admin 172.16.7.54
+ls
+get out
+quit
+lftp -u admin 172.16.7.54
+get out
+quit
+lftp -u admin 172.16.7.54
+get out
+ls
+quit
+lftp -u admin 172.16.7.54
+ls
+get out
+ls
+get out
+quit
+lftp -u admin 172.16.7.54
+ls
+get out 
+quit

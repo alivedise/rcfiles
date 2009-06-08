@@ -60,12 +60,6 @@ nmap <C-k> <C-w>k
 nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
 
-"nmap h <Esc>vertical resize - 
-"nmap l <Esc>vertical resize + 
-"nmap j <Esc>resize - 
-"nmap k <Esc>resize + 
-
-
 map gf <esc><C-w>gF
 map gF <esc><C-w>gF
 
@@ -100,6 +94,3 @@ set ignorecase
 set smartcase
 
 let g:DirDiffExcludes=".svn,tags,cscope.out"
-
-map <C-U> <C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y>
-map <C-D> <C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E>

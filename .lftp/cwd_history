@@ -6,7 +6,10 @@ ftp://192.168.0.65              	1178780074:/
 ftp://admin@12.19.89.207:12108  	1222236883:/mnt/ramdisk
 ftp://admin@172.16.7.113        	1220928470:/mnt/ramdisk
 ftp://admin@172.16.7.113:1024   	1220928454:/mnt/ramdisk
+ftp://admin@172.16.7.31         	1244194416:/mnt/ramdisk
+ftp://admin@172.16.7.37         	1243318334:/mnt/ramdisk
 ftp://admin@172.16.7.52         	1217396121:/etc/conf.d/boa
+ftp://admin@172.16.7.54         	1244466216:/mnt/ramdisk
 ftp://cysh92@csie0.cs.ccu.edu.tw	1236655196:/.amd_mnt/cs1/host/csdata/home/master/ms92/cysh92
 ftp://ftp.ntu.edu.tw            	1215484770:/pub/gnu/gnu/emacs
 ftp://greg@68.15.82.210         	1237466622:/vivotek/GPL/source-code-collection

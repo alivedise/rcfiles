@@ -14,6 +14,7 @@
 'NERDTreeShowHidden'	NERD_tree.txt	/*'NERDTreeShowHidden'*
 'NERDTreeShowLineNumbers'	NERD_tree.txt	/*'NERDTreeShowLineNumbers'*
 'NERDTreeSortOrder'	NERD_tree.txt	/*'NERDTreeSortOrder'*
+'NERDTreeStatusline'	NERD_tree.txt	/*'NERDTreeStatusline'*
 'NERDTreeWinPos'	NERD_tree.txt	/*'NERDTreeWinPos'*
 'NERDTreeWinSize'	NERD_tree.txt	/*'NERDTreeWinSize'*
 'Tlist_Auto_Highlight_Tag'	taglist.txt	/*'Tlist_Auto_Highlight_Tag'*
@@ -41,7 +42,6 @@
 'Tlist_Use_SingleClick'	taglist.txt	/*'Tlist_Use_SingleClick'*
 'Tlist_WinHeight'	taglist.txt	/*'Tlist_WinHeight'*
 'Tlist_WinWidth'	taglist.txt	/*'Tlist_WinWidth'*
-'go'	Align.txt	/*'go'*
 'loaded_nerd_tree'	NERD_tree.txt	/*'loaded_nerd_tree'*
 :CVSEdit	vcscommand.txt	/*:CVSEdit*
 :CVSEditors	vcscommand.txt	/*:CVSEditors*
@@ -82,6 +82,7 @@
 :TlistUpdate	taglist.txt	/*:TlistUpdate*
 :VCSAdd	vcscommand.txt	/*:VCSAdd*
 :VCSAnnotate	vcscommand.txt	/*:VCSAnnotate*
+:VCSBlame	vcscommand.txt	/*:VCSBlame*
 :VCSCommit	vcscommand.txt	/*:VCSCommit*
 :VCSDelete	vcscommand.txt	/*:VCSDelete*
 :VCSDiff	vcscommand.txt	/*:VCSDiff*
@@ -89,6 +90,7 @@
 :VCSInfo	vcscommand.txt	/*:VCSInfo*
 :VCSLock	vcscommand.txt	/*:VCSLock*
 :VCSLog	vcscommand.txt	/*:VCSLog*
+:VCSRemove	vcscommand.txt	/*:VCSRemove*
 :VCSRevert	vcscommand.txt	/*:VCSRevert*
 :VCSReview	vcscommand.txt	/*:VCSReview*
 :VCSStatus	vcscommand.txt	/*:VCSStatus*
@@ -162,16 +164,18 @@ NERDTree-e	NERD_tree.txt	/*NERDTree-e*
 NERDTree-f	NERD_tree.txt	/*NERDTree-f*
 NERDTree-gi	NERD_tree.txt	/*NERDTree-gi*
 NERDTree-go	NERD_tree.txt	/*NERDTree-go*
+NERDTree-gs	NERD_tree.txt	/*NERDTree-gs*
 NERDTree-i	NERD_tree.txt	/*NERDTree-i*
 NERDTree-m	NERD_tree.txt	/*NERDTree-m*
 NERDTree-o	NERD_tree.txt	/*NERDTree-o*
 NERDTree-p	NERD_tree.txt	/*NERDTree-p*
 NERDTree-q	NERD_tree.txt	/*NERDTree-q*
 NERDTree-r	NERD_tree.txt	/*NERDTree-r*
+NERDTree-s	NERD_tree.txt	/*NERDTree-s*
 NERDTree-t	NERD_tree.txt	/*NERDTree-t*
 NERDTree-u	NERD_tree.txt	/*NERDTree-u*
 NERDTree-x	NERD_tree.txt	/*NERDTree-x*
-NERDTreeAuthor	NERD_tree.txt	/*NERDTreeAuthor*
+NERDTreeAbout	NERD_tree.txt	/*NERDTreeAbout*
 NERDTreeBookmarkCommands	NERD_tree.txt	/*NERDTreeBookmarkCommands*
 NERDTreeBookmarkTable	NERD_tree.txt	/*NERDTreeBookmarkTable*
 NERDTreeBookmarks	NERD_tree.txt	/*NERDTreeBookmarks*
@@ -187,7 +191,6 @@ NERDTreeMappings	NERD_tree.txt	/*NERDTreeMappings*
 NERDTreeOptionDetails	NERD_tree.txt	/*NERDTreeOptionDetails*
 NERDTreeOptionSummary	NERD_tree.txt	/*NERDTreeOptionSummary*
 NERDTreeOptions	NERD_tree.txt	/*NERDTreeOptions*
-NERDTreeTodo	NERD_tree.txt	/*NERDTreeTodo*
 NERD_tree.txt	NERD_tree.txt	/*NERD_tree.txt*
 OmniCpp_DefaultNamespaces	omnicppcomplete.txt	/*OmniCpp_DefaultNamespaces*
 OmniCpp_DisplayMode	omnicppcomplete.txt	/*OmniCpp_DisplayMode*
@@ -209,10 +212,13 @@ VCSCommandCVSExec	vcscommand.txt	/*VCSCommandCVSExec*
 VCSCommandCommitOnWrite	vcscommand.txt	/*VCSCommandCommitOnWrite*
 VCSCommandDeleteOnHide	vcscommand.txt	/*VCSCommandDeleteOnHide*
 VCSCommandDiffSplit	vcscommand.txt	/*VCSCommandDiffSplit*
+VCSCommandDisableAll	vcscommand.txt	/*VCSCommandDisableAll*
 VCSCommandDisableExtensionMappings	vcscommand.txt	/*VCSCommandDisableExtensionMappings*
 VCSCommandDisableMappings	vcscommand.txt	/*VCSCommandDisableMappings*
 VCSCommandEdit	vcscommand.txt	/*VCSCommandEdit*
 VCSCommandEnableBufferSetup	vcscommand.txt	/*VCSCommandEnableBufferSetup*
+VCSCommandMapPrefix	vcscommand.txt	/*VCSCommandMapPrefix*
+VCSCommandMappings	vcscommand.txt	/*VCSCommandMappings*
 VCSCommandResultBufferNameExtension	vcscommand.txt	/*VCSCommandResultBufferNameExtension*
 VCSCommandResultBufferNameFunction	vcscommand.txt	/*VCSCommandResultBufferNameFunction*
 VCSCommandSVKExec	vcscommand.txt	/*VCSCommandSVKExec*
@@ -220,6 +226,7 @@ VCSCommandSVNDiffExt	vcscommand.txt	/*VCSCommandSVNDiffExt*
 VCSCommandSVNDiffOpt	vcscommand.txt	/*VCSCommandSVNDiffOpt*
 VCSCommandSVNExec	vcscommand.txt	/*VCSCommandSVNExec*
 VCSCommandSplit	vcscommand.txt	/*VCSCommandSplit*
+VCSCommandVCSTypeOverride	vcscommand.txt	/*VCSCommandVCSTypeOverride*
 [%	matchit.txt	/*[%*
 ]%	matchit.txt	/*]%*
 align	Align.txt	/*align*
@@ -234,10 +241,12 @@ align-control	Align.txt	/*align-control*
 align-history	Align.txt	/*align-history*
 align-manual	Align.txt	/*align-manual*
 align-maps	Align.txt	/*align-maps*
+align-multibyte	Align.txt	/*align-multibyte*
 align-option	Align.txt	/*align-option*
 align-options	Align.txt	/*align-options*
 align-strlen	Align.txt	/*align-strlen*
 align-usage	Align.txt	/*align-usage*
+align-userguide	Align.txt	/*align-userguide*
 align-utf	Align.txt	/*align-utf*
 align-utf8	Align.txt	/*align-utf8*
 align.txt	Align.txt	/*align.txt*
@@ -268,6 +277,8 @@ alignman	Align.txt	/*alignman*
 alignmanual	Align.txt	/*alignmanual*
 alignmap-Htd	Align.txt	/*alignmap-Htd*
 alignmap-T=	Align.txt	/*alignmap-T=*
+alignmap-Tsp	Align.txt	/*alignmap-Tsp*
+alignmap-a(	Align.txt	/*alignmap-a(*
 alignmap-a,	Align.txt	/*alignmap-a,*
 alignmap-a<	Align.txt	/*alignmap-a<*
 alignmap-a=	Align.txt	/*alignmap-a=*
@@ -293,6 +304,9 @@ alignmap-t?	Align.txt	/*alignmap-t?*
 alignmap-tab	Align.txt	/*alignmap-tab*
 alignmap-tml	Align.txt	/*alignmap-tml*
 alignmap-ts,	Align.txt	/*alignmap-ts,*
+alignmap-ts:	Align.txt	/*alignmap-ts:*
+alignmap-ts<	Align.txt	/*alignmap-ts<*
+alignmap-ts=	Align.txt	/*alignmap-ts=*
 alignmap-tsp	Align.txt	/*alignmap-tsp*
 alignmap-tsq	Align.txt	/*alignmap-tsq*
 alignmap-tt	Align.txt	/*alignmap-tt*
@@ -318,6 +332,7 @@ b:match_word	matchit.txt	/*b:match_word*
 b:match_words	matchit.txt	/*b:match_words*
 basic-snippet	snippets_emu.txt	/*basic-snippet*
 creating-snippets	snippets_emu.txt	/*creating-snippets*
+cvscommand-changes	vcscommand.txt	/*cvscommand-changes*
 doxygen-syntax	doxygen.txt	/*doxygen-syntax*
 doxygen.vim	doxygen.txt	/*doxygen.vim*
 drawit	DrawIt.txt	/*drawit*

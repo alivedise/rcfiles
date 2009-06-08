@@ -36,6 +36,7 @@ alias pd="pushd"
 alias pcd='cd ${PRODUCTDIR}'
 alias scd='cd ${PRODUCTDIR}/build/scripts'
 alias icd='cd ${IMAGEDIR}'
+alias rcd='cd ${PRODUCTDIR}/release/app_cluster_Build/armlinux_release'
 alias cd..='cd ..'
 alias cd-='cd -'
 export ad="${PRODUCTDIR}/apps"
