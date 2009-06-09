@@ -852,3 +852,22 @@ lftp -u admin 172.16.7.54
 ls
 get out 
 quit
+lftp -u admin 172.16.7.54
+ls
+get 1024-out 
+quit
+lftp -u admin 172.16.7.54
+ls
+quit
+lftp -u admin 172.16.7.54
+ls
+get 1024-out 
+quit
+lftp -u admin 172.16.7.54
+ls
+get 1024-out 
+quit
+lftp -u admin 172.16.7.54
+ls
+get 1024-out 
+exit
