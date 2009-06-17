@@ -29,7 +29,7 @@ alias mdiff="diff -ruN --exclude=.svn --exclude=cscope.out --exclude=tags --excl
 alias wg="wcgrep"
 alias vi="vim -p"
 alias svn-diff="svn-di"
-alias without="grep -v"
+alias wt="grep -v"
 alias pd="pushd"
 
 # cd shortcuts
