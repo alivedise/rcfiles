@@ -88,9 +88,11 @@ xmap <s-tab> <gv
 nmap cr=    $F=lcf;
 nmap cl=    $F=hc^
 set wildmode=list:longest
-set scrolloff=4
-set sidescrolloff=4
+set scrolloff=12
+set sidescrolloff=12
 set ignorecase
 set smartcase
 
 let g:DirDiffExcludes=".svn,tags,cscope.out"
+
+set cursorline
