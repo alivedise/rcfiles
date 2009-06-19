@@ -27,10 +27,12 @@ alias ma="mca; m; mi"
 # other shortcuts/alias
 alias mdiff="diff -ruN --exclude=.svn --exclude=cscope.out --exclude=tags --exclude=*~ -b"
 alias wg="wcgrep"
-alias vi="vim -p"
+alias vi="vim -p -X"
 alias svn-diff="svn-di"
 alias wt="grep -v"
 alias pd="pushd"
+# colorful 'less'
+alias cless="less -R"
 
 # cd shortcuts
 alias pcd='cd ${PRODUCTDIR}'
