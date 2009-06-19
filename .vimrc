@@ -96,5 +96,6 @@ set smartcase
 let g:DirDiffExcludes=".svn,tags,cscope.out"
 
 set cursorline
+
 " Yahoo dict
 map <C-K> viwy:!ydict <C-R>"<CR>
