@@ -871,3 +871,20 @@ lftp -u admin 172.16.7.54
 ls
 get 1024-out 
 exit
+lftp 172.16.7.33
+ls
+quit
+lftp -u admin 172.16.7.33
+ls
+cd /mnt/CF
+quit
+lftp -u root 172.16.7.33
+ls
+cd /mnt/CF
+ls
+cd event_link0
+ls
+cd .db
+ls
+get .localStorage.db 
+quit
