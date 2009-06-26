@@ -29,8 +29,8 @@ colorscheme peaksea
 
 nmap q <Esc>:qall<Enter>
 nmap Q <Esc>:qall!<Enter>
-nmap w <Esc>:close<Enter>
-nmap W <Esc>:close!<Enter>
+nmap w <Esc>:q<Enter>
+nmap W <Esc>:q!<Enter>
 nmap , <Esc>:tabprev<Enter>
 nmap . <Esc>:tabnext<Enter>
 nmap t <Esc>:tabnew<Enter>
