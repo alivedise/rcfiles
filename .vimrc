@@ -99,3 +99,8 @@ set cursorline
 
 " Yahoo dict
 "map <C-K> viwy:!ydict <C-R>"<CR>
+
+" typo quick fix
+ab sizoef sizeof
+ab pritnf printf
+ab mallco malloc
