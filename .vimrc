@@ -104,3 +104,4 @@ set cursorline
 ab sizoef sizeof
 ab pritnf printf
 ab mallco malloc
+ab SCDOE SCODE
