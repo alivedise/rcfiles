@@ -888,3 +888,27 @@ cd .db
 ls
 get .localStorage.db 
 quit
+lftp -u root 172.16.7.23
+ls
+cd /mnt/auto/CF
+ls
+cd ncmf
+ls -a
+ls 
+cd .db
+ls
+cd ../
+ls
+cd .Backup
+ls
+cd jpeg
+ls
+cd ..
+ls
+cd ..
+l
+ls
+cd .db
+ls
+get .localStorage.db 
+quit

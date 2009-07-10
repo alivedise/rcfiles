@@ -1,17 +1,5 @@
 set nocp
 
-"if &term =~ "xterm"
-"    if has("terminfo")
-"        set t_Co=8
-"        set t_Sf=[3%p1%dm
-"        set t_Sb=[4%p1%dm
-"    else
-"        set t_Co=8
-"        set t_Sf=[3%dm
-"        set t_Sb=[4%dm
-"    endif
-"endif
-
 set ts=4
 set sw=4
 set cindent
@@ -23,9 +11,6 @@ set vb
 set bg=dark
 set t_Co=256
 colorscheme peaksea
-
-" it seems we need to write it twice to let levis got this 
-"set bg=dark
 
 nmap q <Esc>:qall<Enter>
 nmap Q <Esc>:qall!<Enter>
@@ -105,8 +90,17 @@ ab sizoef sizeof
 ab pritnf printf
 ab mallco malloc
 ab SCDOE SCODE
+ab pf printf(
 
 " fuzzy finder shortcut
 map :ff <Esc>:FuzzyFinderFile<cr>
 map :fb <Esc>:FuzzyFinderBuffer<cr>
 map :fd <Esc>:FuzzyFinderDir<cr>
+
+" make shortcut
+map <F8> <esc>:cd ..<cr>:make<cr>
+map <F7> <esc>:cd ..<cr>:make cleanall<cr>
+
+" color/paged man 
+runtime! ftplugin/man.vim
+nmap K <esc>:Man <cword><cr>
