@@ -90,10 +90,10 @@ ab sizoef sizeof
 ab pritnf printf
 ab mallco malloc
 ab SCDOE SCODE
-ab pf printf(
+ab recrod record
 
 " fuzzy finder shortcut
-map :ff <Esc>:FuzzyFinderFile<cr>
+map :ff<space> <Esc>:FuzzyFinderFile<cr>
 map :fb <Esc>:FuzzyFinderBuffer<cr>
 map :fd <Esc>:FuzzyFinderDir<cr>
 
