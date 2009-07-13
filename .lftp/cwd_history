@@ -30,7 +30,7 @@ ftp://root@172.16.7.132         	1229933917:/mnt/ramdisk
 ftp://root@172.16.7.16          	1235702353:/mnt/ramdisk
 ftp://root@172.16.7.18          	1176080410:/mnt/ramdisk
 ftp://root@172.16.7.20          	1214200949:/mnt/ramdisk
-ftp://root@172.16.7.23          	1247218505:/mnt/auto/CF/ncmf/.db
+ftp://root@172.16.7.23          	1247488275:/mnt/auto/CF/ncmf/.db
 ftp://root@172.16.7.33          	1245652219:/mnt/CF/event_link0/.db
 ftp://root@172.16.7.50          	1190981471:/mnt/ramdisk
 ftp://root@172.16.7.77          	1235627634:/mnt/ramdisk

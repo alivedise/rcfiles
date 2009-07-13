@@ -912,3 +912,28 @@ cd .db
 ls
 get .localStorage.db 
 quit
+lftp -u root 172.16.7.23
+cd /mnt/auto/CF
+ls
+cd ncmf
+ls
+cd .db/
+ls
+get .localStorage.db 
+quit
+lftp -u root 172.16.7.23
+cd /mnt/auto/CF
+ls
+cd ncmf
+ls
+cd .db/
+ls
+cd ..
+cd CF
+ls
+cd ncmf/
+ls
+cd .db
+ls
+get .localStorage.db 
+quit
