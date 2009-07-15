@@ -94,6 +94,13 @@ ab recrod record
 ab fiels files
 ab fiel file
 
+" VIVOTEK abbrev 
+ab sok S_OK
+ab sfl S_FAIL
+ab rsok return S_OK
+ab rsfl return S_FAIL
+ab hte the
+
 " fuzzy finder shortcut
 map :ff<space> <Esc>:FuzzyFinderFile<cr>
 map :fb <Esc>:FuzzyFinderBuffer<cr>
@@ -106,3 +113,6 @@ map <F7> <esc>:cd ..<cr>:make cleanall<cr>
 " color/paged man 
 runtime! ftplugin/man.vim
 nmap K <esc>:Man <cword><cr>
+
+" set tags
+set tags=../tags,tags
