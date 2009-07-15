@@ -91,6 +91,8 @@ ab pritnf printf
 ab mallco malloc
 ab SCDOE SCODE
 ab recrod record
+ab fiels files
+ab fiel file
 
 " fuzzy finder shortcut
 map :ff<space> <Esc>:FuzzyFinderFile<cr>
