@@ -115,4 +115,4 @@ runtime! ftplugin/man.vim
 nmap K <esc>:Man <cword><cr>
 
 " set tags
-set tags=../tags,tags
+set tags=../tags
