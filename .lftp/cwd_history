@@ -30,12 +30,13 @@ ftp://root@172.16.7.132         	1229933917:/mnt/ramdisk
 ftp://root@172.16.7.16          	1235702353:/mnt/ramdisk
 ftp://root@172.16.7.18          	1176080410:/mnt/ramdisk
 ftp://root@172.16.7.20          	1214200949:/mnt/ramdisk
-ftp://root@172.16.7.23          	1247488275:/mnt/auto/CF/ncmf/.db
+ftp://root@172.16.7.23          	1247825449:/mnt/auto/CF/ncmf/.db
 ftp://root@172.16.7.33          	1245652219:/mnt/CF/event_link0/.db
 ftp://root@172.16.7.50          	1190981471:/mnt/ramdisk
 ftp://root@172.16.7.77          	1235627634:/mnt/ramdisk
 ftp://root@172.16.7.83          	1230175666:/etc
 ftp://root@172.16.7.87          	1231829665:/etc/conf.d/ssl
+ftp://root@172.16.88.11         	1247819414:/mnt/auto/CF/ncmf/.db
 ftp://root@192.168.0.107        	1181029164:/mnt/ramdisk
 ftp://root@192.168.0.111        	1181792569:/mnt/ramdisk
 ftp://root@192.168.0.129        	1184236247:/mnt/ramdisk
