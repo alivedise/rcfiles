@@ -977,3 +977,7 @@ ls
 cd ncmf/.db
 ls
 get .localStorage.db 
+lftp -u root 172.16.7.33
+get dump-ccd.log 
+get dump-ccd
+quit
