@@ -981,3 +981,7 @@ lftp -u root 172.16.7.33
 get dump-ccd.log 
 get dump-ccd
 quit
+lftp -u root 172.16.7.33
+ls
+get dump-ccd.log vks654n-dump.log
+quit
