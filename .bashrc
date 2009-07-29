@@ -33,6 +33,7 @@ alias wt="grep -v"
 alias pd="pushd"
 # colorful 'less'
 alias cless="less -R"
+alias cg="ctags -R *"
 
 # cd shortcuts
 alias pcd='cd ${PRODUCTDIR}'

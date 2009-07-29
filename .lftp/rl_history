@@ -985,3 +985,7 @@ lftp -u root 172.16.7.33
 ls
 get dump-ccd.log vks654n-dump.log
 quit
+lftp -u root 192.168.4.174
+ls
+put SD73X3-VVTK-0101a.flash.pkg 
+quit
