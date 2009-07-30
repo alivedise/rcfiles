@@ -991,3 +991,40 @@ put SD73X3-VVTK-0101a.flash.pkg
 quit
 lftp -u root 172.16.7.23
 quit
+lftp -u root 172.16.7.33
+get pnm.conf
+quit
+lftp -u root 172.16.88.11
+cd /mnt/auto/CF/ncmf/.db/
+ls
+get .localStorage.db local.db
+quit
+lftp -u root 172.16.88.11
+cd /mnt/auto/CF/ncmf/.db
+get .localStorage.db 
+quit
+lftp -u root 172.16.88.11
+cd /mnt/auto/CF
+ls
+cd ncmf/.db
+get .localStorage.db 
+quit
+lftp -u root 172.16.88.11
+cd /mnt/auto/CF
+ls
+cd ncmf/.db
+get .localStorage.db 
+quit
+lftp -u root 172.16.88.11
+cd /mnt/auto/CF/.db/
+cd /mnt/auto/CF
+ls
+cd ncmf
+ls
+cd .db
+ls
+get .localStorage.db
+quit
+lftp -u root 172.16.88.11
+cd /mnt/auto/CF/ncmf/.db
+get .localStorage.db 
