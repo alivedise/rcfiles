@@ -989,3 +989,5 @@ lftp -u root 192.168.4.174
 ls
 put SD73X3-VVTK-0101a.flash.pkg 
 quit
+lftp -u root 172.16.7.23
+quit
