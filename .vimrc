@@ -94,6 +94,7 @@ ab recrod record
 ab fiels files
 ab fiel file
 ab cosnt const
+ab scode SCODE
 
 " VIVOTEK abbrev 
 ab sok S_OK
