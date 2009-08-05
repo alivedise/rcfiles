@@ -82,6 +82,9 @@ let g:DirDiffExcludes=".svn,tags,cscope.out"
 
 set cursorline
 
+imap j <Esc>o
+imap k <Esc>ko
+
 " Yahoo dict
 "map <C-K> viwy:!ydict <C-R>"<CR>
 

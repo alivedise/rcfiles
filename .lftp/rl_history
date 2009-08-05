@@ -1028,3 +1028,14 @@ quit
 lftp -u root 172.16.88.11
 cd /mnt/auto/CF/ncmf/.db
 get .localStorage.db 
+lftp -u root 172.16.7.57
+cd /mnt/auto/CF
+ls
+cd ncmf
+ls
+cd 20091108/
+ls
+cd 23/
+ls
+get 28.mp4
+quit
