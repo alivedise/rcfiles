@@ -1039,3 +1039,8 @@ cd 23/
 ls
 get 28.mp4
 quit
+lftp -u root 172.16.7.33
+cd /mnt/auto/CF/ncmf/.db
+ls
+get .localStorage.db 
+quit
