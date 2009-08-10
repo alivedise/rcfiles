@@ -1044,3 +1044,10 @@ cd /mnt/auto/CF/ncmf/.db
 ls
 get .localStorage.db 
 quit
+lftp -u root 172.16.7.48
+cd /etc/conf.d/event
+ls
+cd task
+ls
+get event_task.xml 
+quit
