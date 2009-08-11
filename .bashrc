@@ -63,10 +63,10 @@ export MANSECT=8:2:1:3:4:5:6:7:9:0p:1p:3p:tcl:n:l:p:o
 export GIT_MANAGED_DIRECTORY="$HOME/archive/ $HOME/firmware/ $HOME/bombsite/ $HOME/usr $HOME/rcfiles $HOME/project $HOME/docs"
 
 # source bash related script
+source $HOME/rcfiles/completion/bash_completion
 source $HOME/rcfiles/completion/svn_completion
 source $HOME/rcfiles/completion/git-completion
 source $HOME/rcfiles/completion/cdargs-bash.sh
-source $HOME/rcfiles/completion/bash_completion
 
 
 # colorful manpage
