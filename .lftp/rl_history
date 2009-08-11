@@ -1051,3 +1051,58 @@ cd task
 ls
 get event_task.xml 
 quit
+lftp -u root 172.16.7.48
+cd /mnt/flash/etc/conf.d/event/task/
+get event_task.xml 
+quit
+lftp -u root 172.16.7.48
+cd /mnt/flash/etc/conf.d/event/task/
+ls
+put event_task.xml 
+pcd
+ls
+lftp -u root 172.16.7.48
+cd /etc/conf.d/event/task/
+get event_task.xml 
+lftp -u root 172.16.7.48
+cd /etc/conf.d/event/task/
+put event_task.xml 
+quit
+lftp -u root 172.16.7.48
+cd /mnt/flash/etc/conf.d/
+ls
+cd event/
+ls
+get task/event_task.xml 
+quit
+lftp -u root 172.16.7.48
+cd /mnt/flash/etc/conf.d/event/
+put event_task.xml
+quit
+lftp -u root 172.16.7.48
+cd /mnt/flash/etc/conf.d/event/
+ls
+cd task/
+ls
+lftp -u root 172.16.7.48
+cd /mnt/flash/etc/conf.d/event/task/
+get vlr.xml 
+quit
+lftp -u root 172.16.7.48
+cd /etc/conf.d/event/task
+get vlr.xml
+cd /mnt/ramdisk
+get vlr
+quit
+lftp -u root 172.16.7.48
+cd /etc/conf.d/event/task
+ls
+put vlr.xml
+cd /mnt/ramdisk
+ls
+put vlr
+quit
+lftp -u root 172.16.7.75
+put vlr.xml 
+put vlr
+quit
