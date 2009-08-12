@@ -31,6 +31,7 @@ alias vi="vim -p -X"
 alias svn-diff="svn-di"
 alias wt="grep -v"
 alias pd="pushd"
+
 # colorful 'less'
 alias cless="less -R"
 alias cg="ctags -R *"
@@ -38,11 +39,8 @@ alias cg="ctags -R *"
 # cd shortcuts
 alias pcd='cd ${PRODUCTDIR}'
 alias scd='cd ${PRODUCTDIR}/build/scripts'
-alias icd='cd ${IMAGEDIR}'
-alias rcd='cd ${PRODUCTDIR}/release/app_cluster_Build/armlinux_release'
 alias cd..='cd ..'
 alias cd-='cd -'
-export ad="${PRODUCTDIR}/apps"
 
 # save time from typoes
 alias sl=ls
@@ -68,7 +66,28 @@ source $HOME/rcfiles/completion/svn_completion
 source $HOME/rcfiles/completion/git-completion
 source $HOME/rcfiles/completion/cdargs-bash.sh
 
-
+# Easy extract
+extract () {
+	if [ -f $1 ] ; then
+		case $1 in
+			*.tar.bz2)   tar xvjf $1    ;;
+			*.tar.gz)    tar xvzf $1    ;;
+			*.bz2)       bunzip2 $1     ;;
+			*.rar)       rar x $1       ;;
+			*.gz)        gunzip $1      ;;
+			*.tar)       tar xvf $1     ;;
+			*.tbz2)      tar xvjf $1    ;;
+			*.tgz)       tar xvzf $1    ;;
+			*.zip)       unzip $1       ;;
+			*.Z)         uncompress $1  ;;
+			*.7z)        7z x $1        ;;
+			*)           echo "don't know how to extract '$1'..." ;;
+		esac
+	else
+		echo "'$1' is not a valid file!"
+	fi
+}
+ 
 # colorful manpage
 #export LESS_TERMCAP_mb=$'\E[01;31m'
 #export LESS_TERMCAP_md=$'\E[01;31m'
