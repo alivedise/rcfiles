@@ -5,6 +5,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+
 # User specific aliases and functions
 export PATH=$HOME/usr/bin/subversion-scripts:$PATH
 export PATH=$HOME/usr/bin:$PATH
