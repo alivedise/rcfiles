@@ -1,6 +1,7 @@
 #!/bin/sh
 
 LN="ln"
+RCFILE_DIR=rcfiles
 RCFILES=".bashrc .inputrc .vimrc .cdargs .gitconfig .cdargsresult .bash_logout .gitk .bash_profile .lftp .ssh .subversion .vim"
 
 for rcfile in $RCFILES; do 
@@ -10,10 +11,9 @@ for rcfile in $RCFILES; do
 	fi
 done
 
+cd ..
 
 for rcfile in $RCFILES; do 
-	if [ -f $HOME/$rcfile ]; then
-		$LN -sf $rcfile $HOME/$rcfile
-	fi
+	$LN -sf $RCFILE_DIR/$rcfile 
 done
 
