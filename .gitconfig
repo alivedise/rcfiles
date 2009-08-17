@@ -2,6 +2,7 @@
 	diff = auto
 	status = auto
 	branch = auto
+	grep = auto
 [github]
 	user = klaymenr
 	token = 1c68bb5515d43e3045e7aa62088b30a9
