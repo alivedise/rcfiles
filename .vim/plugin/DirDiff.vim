@@ -226,9 +226,9 @@ map <unique> <script> <Plug>DirDiffQuit    :call <SID>DirDiffQuit()<CR>
 " ',' (comma and no space!).
 "
 " eg. in your .vimrc file: let g:DirDiffExcludes = "CVS,*.class,*.o"
-"                          let g:DirDiffIgnore = "Id:"
+"                           let g:DirDiffIgnore = "Id:"
 "                          " ignore white space in diff
-"                          let g:DirDiffAddArgs = "-w" 
+"                           let g:DirDiffAddArgs = "-w" 
 "
 " You can set the pattern that diff excludes.  Defaults to the CVS directory
 if !exists("g:DirDiffExcludes")
@@ -412,7 +412,7 @@ function! <SID>DirDiff(srcA, srcB)
     call append(0, "[A]=". DirDiffAbsSrcA)
     call append(1, "[B]=". DirDiffAbsSrcB)
     call append(2, "Usage:   <Enter>/'o'=open,'s'=sync,'\\dj'=next,'\\dk'=prev, 'q'=quit")
-    call append(3, "Options: 'u'=update,'x'=set excludes,'i'=set ignore,'a'=set args" )
+    call append(3, "Options: 'u'=update,'x'=set excludes,'i'=set ignore,'a'=set args, 'b'=hex/binary mode" )
     call append(4, "Diff Args:" . cmdarg)
     call append(5, "")
     " go to the beginning of the file
@@ -434,6 +434,7 @@ function! <SID>DirDiff(srcA, srcB)
     nnoremap <buffer> x :call <SID>ChangeExcludes()<CR>
     nnoremap <buffer> a :call <SID>ChangeArguments()<CR>
     nnoremap <buffer> i :call <SID>ChangeIgnore()<CR>
+    nnoremap <buffer> b :call <SID>DirDiffHexmode()<CR>
     nnoremap <buffer> q :call <SID>DirDiffQuit()<CR>
 
     nnoremap <buffer> o    :call <SID>DirDiffOpen()<CR>
@@ -505,6 +506,57 @@ function! <SID>CloseDiffWindows()
     endif
 endfunction
 
+" Toggle hexmode
+function <SID>ToggleHex()
+    " hex mode should be considered a read-only operation
+    " save values for modified and read-only for restoration later,
+    " and clear the read-only flag for now
+    let l:modified=&mod
+    let l:oldreadonly=&readonly
+    let &readonly=0
+    let l:oldmodifiable=&modifiable
+    let &modifiable=1
+    if !exists("b:editHex") || !b:editHex
+        " save old options
+        let b:oldft=&ft
+        let b:oldbin=&bin
+        " set new options
+        setlocal binary " make sure it overrides any textwidth, etc.
+        let &ft="xxd"
+        " set status
+        let b:editHex=1
+        " switch to hex editor
+        silent %!xxd
+    else
+        " restore old options
+        let &ft=b:oldft
+        if !b:oldbin
+            setlocal nobinary
+        endif
+        " set status
+        let b:editHex=0
+        " return to normal editing
+        silent %!xxd -r
+    endif
+    " restore values for modified and read only state
+    let &mod=l:modified
+    let &readonly=l:oldreadonly
+    let &modifiable=l:oldmodifiable
+endfunction
+
+function! <SID>DirDiffHexmode()
+        wincmd k
+        call <SID>ToggleHex()
+        wincmd l
+        call <SID>ToggleHex()
+        " Go back to the diff window
+        wincmd j
+        " Resize the window
+        exe("resize " . g:DirDiffWindowSize)
+        exe (b:currentDiff)
+        " Center the line
+        exe ("normal z.")
+endfunction
 
 function! <SID>DirDiffOpen()
     " First dehighlight the last marked
