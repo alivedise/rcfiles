@@ -1,13 +1,24 @@
-# .bash_profile
+alias ls='ls --color=auto'
+alias vi='vim'
+alias port='port -v'
+export PATH=$HOME/usr/bin:/usr/local/bin:/opt/local/bin:$PATH
+export PS1='[\u@\h \W]$ '
+export LANG="en_US.UTF-8"
+export MANPATH=$HOME/usr/man:/opt/local/man:$MANPATH:
+export EDITOR='vi'
 
-# Get the aliases and functions
+
+source /opt/local/etc/bash_completion
+
 if [ -f ~/.bashrc ]; then
-	. ~/.bashrc
+	source ~/.bashrc
 fi
 
-# User specific environment and startup programs
+if [ -f /opt/local/etc/bash_completion ]; then
+	. /opt/local/etc/bash_completion
+fi
 
-PATH=$PATH:$HOME/bin
 
-export PATH
-unset USERNAME
+if [ -f /opt/local/etc/profile.d/cdargs-bash.sh ]; then
+	source /opt/local/etc/profile.d/cdargs-bash.sh 
+fi
