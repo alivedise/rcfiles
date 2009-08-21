@@ -9,36 +9,41 @@ set hlsearch
 syntax on
 set vb
 set bg=dark
-set t_Co=256
+if has("gui_running")
+	set t_Co=256
+	set guifont=Monaco:h12
+else
+	set t_Co=16
+endif
 colorscheme peaksea
 
-nmap q <Esc>:qall<Enter>
-nmap Q <Esc>:qall!<Enter>
-nmap w <Esc>:q<Enter>
-nmap W <Esc>:q!<Enter>
-nmap , <Esc>:tabprev<Enter>
-nmap . <Esc>:tabnext<Enter>
-nmap t <Esc>:tabnew<Enter>
-nmap s <Esc>:write<Enter>
+nmap œ <Esc>:qall<Enter>
+nmap Œ <Esc>:qall!<Enter>
+nmap ∑ <Esc>:q<Enter>
+nmap „ <Esc>:q!<Enter>
+nmap ≤ <Esc>:tabprev<Enter>
+nmap ≥ <Esc>:tabnext<Enter>
+nmap † <Esc>:tabnew<Enter>
+nmap ß <Esc>:write<Enter>
 
-nmap 1 <Esc>:tabn 1<Enter>
-nmap 2 <Esc>:tabn 2<Enter>
-nmap 3 <Esc>:tabn 3<Enter>
-nmap 4 <Esc>:tabn 4<Enter>
-nmap 5 <Esc>:tabn 5<Enter>
-nmap 6 <Esc>:tabn 6<Enter>
-nmap 7 <Esc>:tabn 7<Enter>
-nmap 8 <Esc>:tabn 8<Enter>
-nmap 9 <Esc>:tabn 9<Enter>
+nmap ¡ <Esc>:tabn 1<Enter>
+nmap ™ <Esc>:tabn 2<Enter>
+nmap £ <Esc>:tabn 3<Enter>
+nmap ¢ <Esc>:tabn 4<Enter>
+nmap ∞ <Esc>:tabn 5<Enter>
+nmap § <Esc>:tabn 6<Enter>
+nmap ¶ <Esc>:tabn 7<Enter>
+nmap • <Esc>:tabn 8<Enter>
+nmap ª <Esc>:tabn 9<Enter>
 
-nmap m <Esc>:Tlist<Enter>
-nmap e <Esc>:NERDTreeToggle<Enter>
+nmap µ <Esc>:Tlist<Enter>
+nmap ´ <Esc>:NERDTreeToggle<Enter>
 
-nmap d <Esc>:VCSVimDiff<Enter>
-nmap D <Esc>w
+nmap ∂ <Esc>:VCSVimDiff<Enter>
+nmap Î <Esc>w
 
-nmap i <Esc>gfd
-nmap I <Esc>ww
+nmap ˆ <Esc>gfd
+nmap ˆ <Esc>ww
 
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
@@ -56,7 +61,6 @@ map :e :tabedit
 autocmd BufReadPost * if line ("'\"") > 0 && line ("'\"") <= line("$") | exe "normal g'\"" | endif
 autocmd BufEnter * lcd %:p:h 
 set backup
-set guifont=Andale\ Mono\ 13
 set laststatus=2
 set statusline=%<%F\ %h%m%r%=%-14.(%l,%c%V%)\ %P 
 let Tlist_Use_Right_Window=1

@@ -106,7 +106,7 @@ if &background=='light'
     hi TabLineFill	guifg=fg	guibg=#c0c0c0	gui=NONE
     hi TabLineSel	guifg=fg	guibg=NONE	gui=NONE
     hi CursorColumn	guifg=NONE	guibg=#f0b090
-    hi CursorLine	guifg=NONE	guibg=NONE	gui=underline
+    hi CursorLine	guifg=NONE	guibg=#c0c0c0	gui=NONE
     hi MatchParen	guifg=NONE	guibg=#c0e080
   endif
 
@@ -125,7 +125,7 @@ if &background=='light'
     endif
     hi TabLine		gui=underline
     hi TabLineFill	gui=underline
-    hi CursorLine	gui=underline
+    hi CursorLine	gui=NONE
   endif
 
   " For reversed stuffs, clear the reversed prop and set the bold prop again
@@ -210,13 +210,13 @@ if &background=='light'
       hi TabLineFill	ctermfg=fg	ctermbg=250	cterm=NONE
       hi TabLineSel	ctermfg=fg	ctermbg=NONE	cterm=NONE
       hi CursorColumn	ctermfg=NONE	ctermbg=216
-      hi CursorLine	ctermfg=NONE	ctermbg=NONE	cterm=underline
+      hi CursorLine	ctermfg=NONE	ctermbg=NONE	cterm=NONE
       hi MatchParen	ctermfg=NONE	ctermbg=150
     endif
 
     hi TabLine		cterm=underline
     hi TabLineFill	cterm=underline
-    hi CursorLine	cterm=underline
+    hi CursorLine	cterm=NONE
 
     " For reversed stuffs, clear the reversed prop and set the bold prop again
     hi IncSearch	cterm=bold
@@ -301,7 +301,7 @@ elseif &background=='dark'
     hi TabLineFill	guifg=fg	guibg=#008000	gui=NONE
     hi TabLineSel	guifg=fg	guibg=NONE	gui=NONE
     hi CursorColumn	guifg=NONE	guibg=#800000	gui=NONE
-    hi CursorLine	guifg=NONE	guibg=NONE	gui=underline
+    hi CursorLine	guifg=NONE	guibg=#333333	gui=NONE
     hi MatchParen	guifg=NONE	guibg=#800080
   endif
 
@@ -321,7 +321,7 @@ elseif &background=='dark'
     hi TabLine		gui=underline  
     hi TabLineFill	gui=underline  
     hi Underlined	gui=underline  
-    hi CursorLine	gui=underline 
+    hi CursorLine	gui=NONE 
   endif
 
   " gui define for background=dark end here
@@ -378,7 +378,7 @@ elseif &background=='dark'
       hi CursorColumn	ctermfg=NONE	ctermbg=DarkRed
 
       hi TabLineSel	ctermfg=fg	ctermbg=bg
-      hi CursorLine	ctermfg=NONE	ctermbg=bg		cterm=underline
+      hi CursorLine	ctermfg=NONE	ctermbg=bg		cterm=NONE
 
       hi MatchParen	ctermfg=NONE	ctermbg=DarkMagenta
     endif
